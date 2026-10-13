@@ -27,7 +27,7 @@ Terminal 2:
 
 ```bat
 cd /d C:\xampp\htdocs\WebsiteSudesLogistics
-php artisan serve --host=127.0.0.1 --port=8001
+php artisan serve --host=127.0.0.1 --port=8000
 ```
 
 Mở http://127.0.0.1:8001. Cổng 8001 tách biệt cổng Apache 8080 đang dùng cho IBP.
