@@ -82,20 +82,19 @@
     </header>
 
     <main>
-        <section class="site-wip" id="dang-hoan-thien">
-            <div class="container-xl">
-                <p class="wip-label">
-                    <span class="wip-dot" aria-hidden="true"></span>
-                    WEBSITE ĐANG ĐƯỢC HOÀN THIỆN
-                </p>
-                <h1>Website Sudes Logistics</h1>
-                <p class="wip-description">
-                    Khung giao diện và điều hướng đang được triển khai theo mẫu tham chiếu.
-                    Các khu vực nội dung sẽ được hoàn thiện theo từng bước.
-                </p>
-                <div class="wip-progress">
-                    <span>Giai đoạn hiện tại</span>
-                    <strong>Header & điều hướng</strong>
+        <section class="hero-section">
+            <div class="container-xl hero-inner">
+                <div class="hero-content">
+                    <p class="hero-eyebrow">SUDES LOGISTICS CO., LTD.</p>
+                    <h1>Giải Pháp Logistic Toàn Diện</h1>
+                    <p class="hero-description">
+                        Chúng tôi cung cấp giải pháp chuỗi cung ứng tối ưu,
+                        hỗ trợ doanh nghiệp xuất nhập khẩu hiệu quả,
+                        nâng cao vận hành và mở rộng thị trường.
+                    </p>
+                    <a class="btn btn-quote" href="#dang-hoan-thien">
+                        BÁO GIÁ NGAY
+                    </a>
                 </div>
             </div>
         </section>

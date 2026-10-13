@@ -152,59 +152,64 @@ body {
     border-color: var(--sudes-navy);
 }
 
-.site-wip {
-    min-height: 290px;
+.hero-section {
+    min-height: 420px;
     display: flex;
     align-items: center;
-    padding: 62px 0 68px;
-    background: #f5f8fa;
-    border-bottom: 1px solid var(--sudes-border);
+    padding: 70px 0;
+    color: #fff;
+    background: linear-gradient(110deg, #102d45 0%, #1d4b69 65%, #286681 100%);
 }
 
-.wip-label {
-    display: inline-flex;
-    align-items: center;
-    gap: 9px;
-    margin-bottom: 20px;
-    color: var(--sudes-orange);
-    font-size: 12px;
-    font-weight: 800;
-    letter-spacing: 1px;
+.hero-inner {
+    width: 100%;
 }
 
-.wip-dot {
-    width: 9px;
-    height: 9px;
-    border-radius: 50%;
-    background: var(--sudes-orange);
-}
-
-.site-wip h1 {
-    margin: 0 0 14px;
-    color: var(--sudes-navy);
-    font-size: clamp(28px, 4vw, 42px);
-    font-weight: 800;
-}
-
-.wip-description {
+.hero-content {
     max-width: 680px;
-    margin-bottom: 26px;
-    color: var(--sudes-muted);
-    font-size: 16px;
-    line-height: 1.75;
 }
 
-.wip-progress {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 8px 16px;
-    color: var(--sudes-muted);
+.hero-eyebrow {
+    margin-bottom: 18px;
+    color: #ffb16f;
     font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
 
-.wip-progress strong {
-    color: var(--sudes-navy);
+.hero-content h1 {
+    margin: 0 0 20px;
+    color: #fff;
+    font-size: clamp(32px, 4.5vw, 54px);
+    font-weight: 800;
+    line-height: 1.15;
+}
+
+.hero-description {
+    max-width: 620px;
+    margin-bottom: 28px;
+    color: #eef3f7;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.hero-content .btn-quote {
+    display: inline-block;
+}
+
+@media (max-width: 575.98px) {
+    .hero-section {
+        min-height: 360px;
+        padding: 52px 0;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+
+    .hero-description {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 991.98px) {
