@@ -278,17 +278,4 @@ body {
     .brand-copy small {
         font-size: 9px;
     }
-
-    .site-wip {
-        min-height: 260px;
-        padding: 45px 0;
-    }
-
-    .site-wip h1 {
-        font-size: 29px;
-    }
-
-    .wip-description {
-        font-size: 14px;
-    }
 }

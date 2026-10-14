@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Sudes Logistics - Giải pháp logistics và vận chuyển hàng hóa.">
-    <title>Sudes Logistics | Trang chủ</title>
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-</head>
-<body>
     <div class="site-topbar">
         <div class="container-xl d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-2">
             <span>Thời gian làm việc: <strong>8h - 22h</strong> từ thứ 2 đến chủ nhật</span>
@@ -80,5 +70,3 @@
             </div>
         </nav>
     </header>
-</body>
-</html>
