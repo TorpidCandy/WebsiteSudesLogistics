@@ -7,12 +7,12 @@
 
     <header class="site-header">
         <nav class="navbar navbar-expand-lg container-xl">
-            <a class="site-brand" href="/" aria-label="Sudes Logistics - Trang chủ">
-                <span class="brand-mark" aria-hidden="true">SL</span>
-                <span class="brand-copy">
-                    <strong>SUDES</strong>
-                    <small>LOGISTICS CO., LTD.</small>
-                </span>
+            <a class="site-brand" href="{{ url('/') }}" aria-label="Sudes Logistics - Trang chủ">
+                <img
+                    class="site-brand-logo"
+                    src="{{ asset('images/branding/sudes-logo-header-white.png') }}"
+                    alt="Sudes Logistics"
+                >
             </a>
 
             <button
@@ -33,7 +33,7 @@
                         <a class="nav-link active" href="/" aria-current="page">Trang chủ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#dang-hoan-thien">Giới thiệu</a>
+                        <a class="nav-link" href="#">Giới thiệu</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a
@@ -47,21 +47,24 @@
                             Dịch vụ
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="sudesServicesMenu">
-                            <li><a class="dropdown-item" href="#dang-hoan-thien">Đại lý Hải quan</a></li>
-                            <li><a class="dropdown-item" href="#dang-hoan-thien">Bảo hiểm Hàng hóa</a></li>
-                            <li><a class="dropdown-item" href="#dang-hoan-thien">Vận chuyển Hàng không Quốc tế</a></li>
-                            <li><a class="dropdown-item" href="#dang-hoan-thien">Vận chuyển Đường biển Quốc tế</a></li>
-                            <li><a class="dropdown-item" href="#dang-hoan-thien">Vận chuyển Nội bộ</a></li>
-                            <li><a class="dropdown-item" href="#dang-hoan-thien">Nâng hạ - Cẩu - Lắp đặt</a></li>
-                            <li><a class="dropdown-item" href="#dang-hoan-thien">Cho thuê Kho bãi & Phân phối</a></li>
-                            <li><a class="dropdown-item" href="#dang-hoan-thien">Chứng từ & Tư vấn Xuất Nhập khẩu</a></li>
+                            <li><a class="dropdown-item" href="#">Đại lý Hải quan</a></li>
+                            <li><a class="dropdown-item" href="#">Bảo hiểm Hàng hóa</a></li>
+                            <li><a class="dropdown-item" href="#">Vận chuyển Hàng không Quốc tế</a></li>
+                            <li><a class="dropdown-item" href="#">Vận chuyển Đường biển Quốc tế</a></li>
+                            <li><a class="dropdown-item" href="#">Vận chuyển Nội bộ</a></li>
+                            <li><a class="dropdown-item" href="#">Nâng hạ - Cẩu - Lắp đặt</a></li>
+                            <li><a class="dropdown-item" href="#">Cho thuê Kho bãi & Phân phối</a></li>
+                            <li><a class="dropdown-item" href="#">Chứng từ & Tư vấn Xuất Nhập khẩu</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#dang-hoan-thien">Tin tức</a>
+                        <a class="nav-link" href="#">Tin tức</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#dang-hoan-thien">Liên hệ</a>
+                        <a class="nav-link" href="#">Liên hệ</a>
+                    </li>
+                    <li class="nav-item nav-quote-item">
+                        <a class="nav-link nav-quote" href="#">BÁO GIÁ</a>
                     </li>
                 </ul>
             </div>

@@ -15,5 +15,6 @@
     @yield('content')
 
     <script src="{{ asset('vendor/bootstrap/bootstrap.bundle.min.js') }}" defer></script>
+    <script src="{{ asset('js/main.js') }}" defer></script>
 </body>
 </html>
