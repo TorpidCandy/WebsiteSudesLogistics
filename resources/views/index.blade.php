@@ -14,9 +14,6 @@
                         hỗ trợ doanh nghiệp xuất nhập khẩu hiệu quả,
                         nâng cao vận hành và mở rộng thị trường.
                     </p>
-                    <a class="btn btn-quote" href="#dang-hoan-thien">
-                        BÁO GIÁ NGAY
-                    </a>
                 </div>
             </div>
         </section>

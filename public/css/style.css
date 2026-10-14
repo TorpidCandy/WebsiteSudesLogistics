@@ -132,24 +132,6 @@ body {
     background: #fff5ed;
 }
 
-.btn-quote {
-    padding: 12px 22px;
-    color: #fff;
-    background: var(--sudes-orange);
-    border: 1px solid var(--sudes-orange);
-    border-radius: 3px;
-    font-size: 13px;
-    font-weight: 800;
-    letter-spacing: .3px;
-}
-
-.btn-quote:hover,
-.btn-quote:focus {
-    color: #fff;
-    background: var(--sudes-navy);
-    border-color: var(--sudes-navy);
-}
-
 .hero-section {
     min-height: 420px;
     display: flex;
@@ -189,10 +171,6 @@ body {
     color: #eef3f7;
     font-size: 16px;
     line-height: 1.8;
-}
-
-.hero-content .btn-quote {
-    display: inline-block;
 }
 
 @media (max-width: 575.98px) {
@@ -246,11 +224,6 @@ body {
 
     .site-header .navbar-toggler:focus {
         box-shadow: 0 0 0 3px rgb(237 118 37 / 20%);
-    }
-
-    .btn-quote {
-        display: inline-block;
-        text-align: center;
     }
 }
 

@@ -63,9 +63,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#dang-hoan-thien">Liên hệ</a>
                     </li>
-                    <li class="nav-item ms-lg-3 py-2 py-lg-0">
-                        <a class="btn btn-quote" href="#dang-hoan-thien">BÁO GIÁ</a>
-                    </li>
                 </ul>
             </div>
         </nav>
