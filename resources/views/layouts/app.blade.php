@@ -3,7 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Sudes Logistics - Giải pháp logistics và vận chuyển hàng hóa.">
+    <meta
+        name="description"
+        content="Sudes Logistics cung cấp giải pháp logistics, vận tải nội địa và quốc tế, khai báo hải quan, bảo hiểm hàng hóa và kho bãi cho doanh nghiệp."
+    >
     <title>@yield('title', 'Sudes Logistics | Trang chủ')</title>
 
     <link rel="stylesheet" href="{{ asset('vendor/bootstrap/bootstrap.min.css') }}">

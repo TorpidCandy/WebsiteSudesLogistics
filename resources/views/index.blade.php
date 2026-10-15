@@ -17,7 +17,7 @@
 
                         <div class="hero-inner">
                             <div class="hero-content">
-                                <h1>Giải Pháp Logistic Toàn <br>Diện</h1>
+                                <h1>Giải Pháp Logistic Toàn Diện</h1>
                                 <p class="hero-description">
                                     Chúng tôi cung cấp giải pháp chuỗi cung ứng tối ưu,
                                     hỗ trợ hàng nghìn doanh nghiệp Việt Nam xuất nhập khẩu
@@ -65,9 +65,11 @@
                     <div class="col-12 col-lg-6">
                         <p class="section-kicker">SUDES LOGISTICS</p>
                         <h2 class="section-title" id="about-title">SUDES LOGISTICS CO., LTD</h2>
-                        <p>
-                            Sudes Logistics cung cấp các dịch vụ hậu cần và giải pháp
-                            hỗ trợ hoạt động xuất nhập khẩu cho doanh nghiệp.
+                        <p class="section-intro">
+                            Được thành lập bởi những nhà lãnh đạo mang trong mình tâm huyết
+                            mạnh mẽ đối với lĩnh vực Logistics. SUDES LOGISTICS có nhiều năm
+                            kinh nghiệm cung cấp các dịch vụ hậu cần, các giải pháp tối ưu
+                            trong hoạt động Xuất - Nhập khẩu cho hàng nghìn doanh nghiệp tại Việt Nam.
                         </p>
                         <div class="about-feature-list">
                             <p>Vận chuyển hàng hóa đường bộ</p>
@@ -199,8 +201,9 @@
                         <h2 class="section-title" id="why-title">TẠI SAO CHỌN CHÚNG TÔI?</h2>
                         <h3>Với 10 năm kinh nghiệm</h3>
                         <p>
-                            Sudes Logistics hướng tới nâng cao chất lượng dịch vụ
-                            và phát triển giải pháp chuỗi cung ứng cho doanh nghiệp.
+                            Trở thành công ty hậu cần chuỗi cung ứng được ưa thích nhất
+                            trên thế giới nhờ hiểu biết sâu sắc, chất lượng dịch vụ,
+                            đổi mới và tăng trưởng không ngừng cho doanh nghiệp và xã hội.
                         </p>
                     </div>
                     <div class="col-12 col-lg-7">
@@ -253,20 +256,24 @@
         @php
             $newsItems = [
                 [
-                    'title' => 'Xu hướng Nổi bật trong Logistics Toàn cầu',
-                    'image' => 'images/operations/logistics-network-aerial.png',
+                    'title' => 'Xu hướng Nổi bật trong Logistics Toàn cầu: Định hình Tương lai Chuỗi Cung ứng',
+                    'description' => 'Công nghệ, kỳ vọng khách hàng và yêu cầu phát triển bền vững đang thúc đẩy ngành logistics thay đổi nhanh chóng.',
+                    'image' => 'images/logistics-network-aerial.png',
                 ],
                 [
-                    'title' => 'Tối ưu hóa Hiệu quả Vận tải trong Logistics',
-                    'image' => 'images/operations/ocean-freight-vessel.png',
+                    'title' => 'Tối ưu hóa Hiệu quả Vận tải trong Logistics: Chìa khóa tăng trưởng bền vững',
+                    'description' => 'Tối ưu hoạt động vận tải giúp tiết kiệm chi phí, nâng cao chất lượng dịch vụ và tăng sức cạnh tranh cho chuỗi cung ứng.',
+                    'image' => 'images/conveyor-sorting-facility.png',
                 ],
                 [
-                    'title' => 'Logistics ngược trong chuỗi cung ứng hiện đại',
-                    'image' => 'images/services/multimodal-logistics-collage.png',
+                    'title' => 'Logistics ngược: Xu hướng quan trọng trong chuỗi cung ứng hiện đại',
+                    'description' => 'Logistics ngược quản lý dòng hàng quay trở lại điểm xuất phát nhằm thu hồi giá trị hoặc xử lý hàng hóa.',
+                    'image' => 'images/warehouse-sorting-operations.png',
                 ],
                 [
-                    'title' => 'Ngành Logistics và động lực tăng trưởng',
-                    'image' => 'images/services/warehouse-sorting-facility.png',
+                    'title' => 'Ngành Logistics: Động lực tăng trưởng và những thách thức mới',
+                    'description' => 'Số hóa, thương mại điện tử và biến động thị trường đang định hình những cơ hội cũng như thách thức mới của ngành.',
+                    'image' => 'images/multimodal-logistics-collage.png',
                 ],
             ];
         @endphp
@@ -291,6 +298,7 @@
                                 <div class="news-content">
                                     <time datetime="2025-06-02">02/06/2025</time>
                                     <h3>{{ $news['title'] }}</h3>
+                                    <p class="news-description">{{ $news['description'] }}</p>
                                 </div>
                             </article>
                         </div>
