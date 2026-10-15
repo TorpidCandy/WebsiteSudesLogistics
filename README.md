@@ -7,7 +7,7 @@ Trang chủ Sudes Logistics được triển khai bằng Laravel 13, PHP 8.4, Bl
 - Demo chuẩn do quản lý chỉ định: https://themes.sapo.vn/demo/sudes-logistics
 - Trang preview liên kết từ demo: https://sudes-logistics.mysapo.net/
 - Phạm vi: tái tạo trang chủ, ưu tiên độ sát bố cục và responsive mobile. Tự viết HTML/CSS bằng Bootstrap, Grid và Flexbox; không sao chép source hoặc class nội bộ của theme.
-- Phải có hero slider và nút back-to-top hoạt động. Loại bỏ popup/widget quảng bá ứng dụng Sapo, nút nổi Liên hệ/Messenger và section “CÙNG BẠN VƯỢT MỌI GIỚI HẠN”. GTranslate và AOS là tùy chọn.
+- Phải có hero slider và nút back-to-top hoạt động. Loại bỏ popup/widget quảng bá ứng dụng Sapo, nút nổi Liên hệ/Messenger và section “CÙNG BẠN VƯỢT MỌI GIỚI HẠN”. GTranslate là tùy chọn; AOS là yêu cầu hiện hành cho hiệu ứng xuất hiện khi cuộn và phải tôn trọng `prefers-reduced-motion`.
 
 ## Chạy local
 
