@@ -1,6 +1,10 @@
+/* DOM readiness — tất cả khởi tạo nằm trong listener này */
+
 document.addEventListener("DOMContentLoaded", function () {
+
+    /* Hero slider */
+
     const heroElement = document.querySelector("[data-hero-slider]");
-    const navigationElement = document.querySelector("[data-nav-slider]");
 
     function syncHeroAccessibility(swiper) {
         swiper.slides.forEach(function (slide, index) {
@@ -23,6 +27,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 disableOnInteraction: true,
                 stopOnLastSlide: true
             },
+            pagination: {
+                el: ".hero-pagination",
+                clickable: true
+            },
             on: {
                 init: syncHeroAccessibility,
                 slideChange: syncHeroAccessibility
@@ -31,6 +39,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
         syncHeroAccessibility(heroSwiper);
     }
+
+    /* Navigation carousel */
+
+    const navigationElement = document.querySelector("[data-nav-slider]");
 
     function syncNavigationButtons(swiper) {
         const previousButton = document.querySelector("[data-nav-prev]");
@@ -68,6 +80,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
         syncNavigationButtons(navigationSwiper);
     }
+
+    /* Dropdown behavior */
 
     const siteNavigation = document.querySelector(".site-navigation");
     const dropdownPanel = document.querySelector("[data-nav-dropdown-panel]");
@@ -199,6 +213,8 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
+    /* Search panel */
+
     const searchWrap = document.querySelector(".site-search-wrap");
     const searchTrigger = document.querySelector("[data-search-trigger]");
 
@@ -231,6 +247,34 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
+    /* Homepage interactions — pause brand marquee on hover */
+
+    const brandsTrack = document.querySelector(".brands-track");
+
+    if (brandsTrack) {
+        brandsTrack.addEventListener("mouseenter", function () {
+            brandsTrack.style.animationPlayState = "paused";
+        });
+
+        brandsTrack.addEventListener("mouseleave", function () {
+            brandsTrack.style.animationPlayState = "running";
+        });
+    }
+
+    /* AOS — khởi tạo một lần sau khi DOM sẵn sàng */
+
+    if (window.AOS) {
+        AOS.init({
+            duration: 700,
+            easing: "ease-out-cubic",
+            once: true,
+            offset: 60,
+            mirror: false
+        });
+    }
+
+    /* Back-to-top */
+
     const backToTop = document.querySelector("[data-back-to-top]");
 
     if (backToTop) {
@@ -252,4 +296,5 @@ document.addEventListener("DOMContentLoaded", function () {
         window.addEventListener("scroll", syncBackToTop, { passive: true });
         syncBackToTop();
     }
+
 });

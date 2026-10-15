@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="{{ asset('vendor/bootstrap/bootstrap.min.css') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.3.0/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
 <body>
@@ -35,6 +36,7 @@
 
     <script src="{{ asset('vendor/bootstrap/bootstrap.bundle.min.js') }}" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@14.3.0/swiper-bundle.min.js" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
     <script src="{{ asset('js/main.js') }}" defer></script>
 </body>
 </html>

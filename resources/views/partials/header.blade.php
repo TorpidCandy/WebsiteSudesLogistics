@@ -6,7 +6,7 @@
         >
             <img
                 class="site-brand-logo"
-                src="{{ asset('images/branding/sudes-logo-header-white.png') }}"
+                src="{{ asset('images/sudes-logo-header-white.png') }}"
                 alt="Sudes Logistics"
             >
         </a>
@@ -14,10 +14,12 @@
         <div class="site-header-main">
             <div class="site-topbar">
                 <div class="site-topbar-socials" aria-label="Mạng xã hội">
+                    {{-- Facebook — URL chưa được xác nhận, giữ href="#" chờ chủ project cung cấp --}}
                     <a class="site-social-link" href="#" aria-label="Facebook">
                         <span class="social-facebook" aria-hidden="true">f</span>
                     </a>
 
+                    {{-- Instagram — URL chưa được xác nhận --}}
                     <a class="site-social-link" href="#" aria-label="Instagram">
                         <svg viewBox="0 0 24 24" aria-hidden="true">
                             <rect x="3" y="3" width="18" height="18" rx="5" />
@@ -26,10 +28,12 @@
                         </svg>
                     </a>
 
+                    {{-- Zalo — URL chưa được xác nhận --}}
                     <a class="site-social-link site-social-zalo" href="#" aria-label="Zalo">
                         Zalo
                     </a>
 
+                    {{-- YouTube — URL chưa được xác nhận --}}
                     <a class="site-social-link" href="#" aria-label="YouTube">
                         <svg viewBox="0 0 24 24" aria-hidden="true">
                             <path
@@ -57,6 +61,7 @@
                         <span>1900 6750</span>
                     </a>
 
+                    {{-- Email — dùng support@sapo.vn từ source gốc; chờ chủ project xác nhận email thật --}}
                     <a class="topbar-contact-item" href="mailto:support@sapo.vn">
                         <svg viewBox="0 0 24 24" aria-hidden="true">
                             <rect x="2" y="4" width="20" height="16" rx="1" />
@@ -95,7 +100,7 @@
                                 </li>
 
                                 <li class="nav-item swiper-slide">
-                                    <a class="nav-link" href="{{ url('/#about') }}"Giới thiệu</a>
+                                    <a class="nav-link" href="{{ url('/#about') }}">Giới thiệu</a>
                                 </li>
 
                                 <li class="nav-item swiper-slide">
@@ -209,7 +214,7 @@
                         </form>
                     </div>
 
-                    <a class="nav-quote" href="{{ url('/#contact') }}" aria-label="Báo giá">
+                    <a class="nav-quote" href="{{ url('/#contact') }}" aria-label="Yêu cầu báo giá">
                         <svg viewBox="0 0 36 30" aria-hidden="true">
                             <path d="M13 4h21v22H13Z" />
                             <path d="m14 5 9.5 8L33 5" />
@@ -226,17 +231,18 @@
                     aria-hidden="true"
                 >
                     <div data-nav-dropdown-content="services" hidden>
-                        <a class="site-dropdown-link" href="#">Đại lý Hải quan</a>
-                        <a class="site-dropdown-link" href="#">Bảo hiểm Hàng hóa</a>
-                        <a class="site-dropdown-link" href="#">Vận chuyển Hàng không Quốc tế</a>
-                        <a class="site-dropdown-link" href="#">Vận chuyển Đường biển Quốc tế</a>
-                        <a class="site-dropdown-link" href="#">Vận chuyển Nội bộ</a>
-                        <a class="site-dropdown-link" href="#">Nâng hạ - Cẩu - Lắp đặt</a>
-                        <a class="site-dropdown-link" href="#">Cho thuê Kho bãi &amp; Phân phối</a>
-                        <a class="site-dropdown-link" href="#">Chứng từ &amp; Tư vấn Xuất Nhập khẩu</a>
+                        <a class="site-dropdown-link" href="{{ url('/#services') }}">Đại lý Hải quan</a>
+                        <a class="site-dropdown-link" href="{{ url('/#services') }}">Bảo hiểm Hàng hóa</a>
+                        <a class="site-dropdown-link" href="{{ url('/#services') }}">Vận chuyển Hàng không Quốc tế</a>
+                        <a class="site-dropdown-link" href="{{ url('/#services') }}">Vận chuyển Đường biển Quốc tế</a>
+                        <a class="site-dropdown-link" href="{{ url('/#services') }}">Vận chuyển Nội địa</a>
+                        <a class="site-dropdown-link" href="{{ url('/#services') }}">Nâng hạ - Cẩu - Lắp đặt</a>
+                        <a class="site-dropdown-link" href="{{ url('/#services') }}">Cho thuê Kho bãi &amp; Phân phối</a>
+                        <a class="site-dropdown-link" href="{{ url('/#services') }}">Chứng từ &amp; Tư vấn Xuất Nhập khẩu</a>
                     </div>
 
                     <div data-nav-dropdown-content="library" hidden>
+                        {{-- Thư viện video và album chưa có trang đích riêng; chờ chủ project cung cấp URL --}}
                         <a class="site-dropdown-link" href="#">Thư viện video</a>
                         <a class="site-dropdown-link" href="#">Thư viện album</a>
                     </div>

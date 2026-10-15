@@ -1,4 +1,6 @@
 <footer class="site-footer" id="contact">
+
+    {{-- CTA BAND --}}
     <section class="footer-contact-band">
         <div class="container">
             <div class="row align-items-center g-3">
@@ -15,13 +17,16 @@
         </div>
     </section>
 
+    {{-- FOOTER MAIN --}}
     <div class="footer-main">
         <div class="container">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 g-xl-5">
+
+                {{-- Cột 1: Thương hiệu và liên hệ --}}
                 <div class="col">
                     <a class="footer-brand" href="{{ url('/') }}">
                         <img
-                            src="{{ asset('images/branding/sudes-logo-footer-white.png') }}"
+                            src="{{ asset('images/sudes-logo-footer-white.png') }}"
                             alt="Sudes Logistics"
                             loading="lazy"
                         >
@@ -31,11 +36,34 @@
                         phục vụ nhu cầu vận chuyển của doanh nghiệp.
                     </p>
                     <div class="footer-contact-list">
-                        <a href="tel:19006750">1900 6750</a>
-                        <a href="mailto:support@sapo.vn">support@sapo.vn</a>
+                        <a href="tel:19006750">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M5 3h4l2 5-3 2a15 15 0 0 0 6 6l2-3 5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2Z" />
+                            </svg>
+                            1900 6750
+                        </a>
+                        {{-- Email chờ chủ project xác nhận địa chỉ thật --}}
+                        <a href="mailto:support@sapo.vn">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <rect x="2" y="4" width="20" height="16" rx="1" />
+                                <path d="m3 5 9 8 9-8" />
+                            </svg>
+                            support@sapo.vn
+                        </a>
+                    </div>
+                    <div class="footer-socials">
+                        <a class="footer-social-link" href="#" aria-label="Facebook">f</a>
+                        <a class="footer-social-link" href="#" aria-label="Zalo">Z</a>
+                        <a class="footer-social-link" href="#" aria-label="YouTube">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" width="16" height="16">
+                                <path class="yt-body" d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8Z" />
+                                <path class="yt-play" d="m10 8.5 6 3.5-6 3.5Z" />
+                            </svg>
+                        </a>
                     </div>
                 </div>
 
+                {{-- Cột 2: Thông tin --}}
                 <div class="col">
                     <h2 class="footer-heading">Thông tin</h2>
                     <ul class="footer-links">
@@ -49,6 +77,7 @@
                     </ul>
                 </div>
 
+                {{-- Cột 3: Dịch vụ --}}
                 <div class="col">
                     <h2 class="footer-heading">Dịch vụ</h2>
                     <ul class="footer-links">
@@ -56,32 +85,35 @@
                         <li><a href="{{ url('/#services') }}">Bảo hiểm Hàng hóa</a></li>
                         <li><a href="{{ url('/#services') }}">Vận chuyển Hàng không Quốc tế</a></li>
                         <li><a href="{{ url('/#services') }}">Vận chuyển Đường biển Quốc tế</a></li>
-                        <li><a href="{{ url('/#services') }}">Vận chuyển Nội bộ</a></li>
-                        <li><a href="{{ url('/#services') }}">Nâng hạ - Cẩu - Lắp đặt</a></li>
+                        <li><a href="{{ url('/#services') }}">Vận chuyển Nội địa</a></li>
                         <li><a href="{{ url('/#services') }}">Kho bãi &amp; Phân phối</a></li>
-                        <li><a href="{{ url('/#services') }}">Chứng từ &amp; Tư vấn Xuất Nhập khẩu</a></li>
+                        <li><a href="{{ url('/#services') }}">Chứng từ &amp; Tư vấn XNK</a></li>
                     </ul>
                 </div>
 
+                {{-- Cột 4: Thời gian làm việc --}}
                 <div class="col">
                     <h2 class="footer-heading">Thời gian làm việc</h2>
-                    <p>Từ thứ 2 đến thứ 7 (nghỉ Chủ nhật)</p>
+                    <p>Từ thứ 2 đến chủ nhật</p>
                     <p class="footer-hours">8h00 - 22h00</p>
                     <div class="footer-map-wrap">
                         <img
-                            src="{{ asset('images/coverage/vietnam-logistics-network-map.png') }}"
+                            src="{{ asset('images/vietnam-logistics-network-map.png') }}"
                             alt="Mạng lưới logistics tại Việt Nam"
                             loading="lazy"
                         >
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
 
+    {{-- FOOTER BOTTOM --}}
     <div class="footer-bottom">
         <div class="container">
-            <p>© Sudes Logistics. Bảo lưu mọi quyền.</p>
+            <p>© {{ date('Y') }} Sudes Logistics. Bảo lưu mọi quyền.</p>
         </div>
     </div>
+
 </footer>
