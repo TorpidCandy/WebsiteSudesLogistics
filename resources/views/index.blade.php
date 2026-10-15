@@ -128,36 +128,44 @@
         @php
             $services = [
                 [
+                    'id' => 'service-customs-clearance',
                     'title' => 'Đại lý Hải quan',
-                    'image' => 'images/operations/customs-clearance-team.png',
+                    'image' => 'images/customs-clearance-team.png',
                 ],
                 [
+                    'id' => 'service-cargo-insurance',
                     'title' => 'Bảo hiểm Hàng hóa',
-                    'image' => 'images/operations/cargo-handling-team.png',
+                    'image' => 'images/cargo-handling-team.png',
                 ],
                 [
+                    'id' => 'service-air-freight',
                     'title' => 'Vận chuyển Hàng không Quốc tế',
-                    'image' => 'images/services/multimodal-logistics-collage.png',
+                    'image' => 'images/international-air-freight.png',
                 ],
                 [
+                    'id' => 'service-sea-freight',
                     'title' => 'Vận chuyển Đường biển Quốc tế',
-                    'image' => 'images/operations/ocean-freight-vessel.png',
+                    'image' => 'images/ocean-freight-vessel.png',
                 ],
                 [
-                    'title' => 'Vận chuyển Nội bộ',
-                    'image' => 'images/operations/multimodal-logistics-collage-thumbnail.png',
+                    'id' => 'service-domestic-transport',
+                    'title' => 'Vận chuyển Nội địa',
+                    'image' => 'images/domestic-transport.png',
                 ],
                 [
+                    'id' => 'service-heavy-lift',
                     'title' => 'Nâng hạ - Cẩu - Lắp đặt hàng siêu trường, siêu trọng',
-                    'image' => 'images/services/multimodal-logistics-collage.png',
+                    'image' => 'images/heavy-lift-crane-installation.png',
                 ],
                 [
+                    'id' => 'service-warehouse-distribution',
                     'title' => 'Cho thuê Kho bãi & Phân phối hàng hóa',
-                    'image' => 'images/services/warehouse-sorting-facility.png',
+                    'image' => 'images/warehouse-sorting-facility.png',
                 ],
                 [
+                    'id' => 'service-import-export-documents',
                     'title' => 'Dịch vụ Chứng từ & Tư vấn Xuất Nhập khẩu',
-                    'image' => 'images/operations/customs-clearance-team.png',
+                    'image' => 'images/import-export-documentation.png',
                 ],
             ];
         @endphp
@@ -171,7 +179,7 @@
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-4 g-4">
                     @foreach ($services as $service)
                         <div class="col">
-                            <article class="service-card">
+                            <article class="service-card" id="{{ $service['id'] }}">
                                 <a class="service-image" href="#contact">
                                     <img
                                         src="{{ asset($service['image']) }}"

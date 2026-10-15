@@ -95,11 +95,11 @@
                                 </li>
 
                                 <li class="nav-item swiper-slide">
-                                    <a class="nav-link" href="#">Giới thiệu</a>
+                                    <a class="nav-link" href="{{ url('/#about') }}"Giới thiệu</a>
                                 </li>
 
                                 <li class="nav-item swiper-slide">
-                                    <a class="nav-link" href="#">Lịch sử hình thành</a>
+                                    <a class="nav-link" href="{{ url('/#about') }}">Lịch sử hình thành</a>
                                 </li>
 
                                 <li class="nav-item swiper-slide">
@@ -116,7 +116,7 @@
                                 </li>
 
                                 <li class="nav-item swiper-slide">
-                                    <a class="nav-link" href="#">Tin tức</a>
+                                    <a class="nav-link" href="{{ url('/#news') }}">Tin tức</a>
                                 </li>
 
                                 <li class="nav-item swiper-slide">
@@ -133,11 +133,11 @@
                                 </li>
 
                                 <li class="nav-item swiper-slide">
-                                    <a class="nav-link" href="#">Câu hỏi thường gặp</a>
+                                    <a class="nav-link" href="{{ url('/#faq') }}">Câu hỏi thường gặp</a>
                                 </li>
 
                                 <li class="nav-item swiper-slide">
-                                    <a class="nav-link" href="#">Liên hệ</a>
+                                    <a class="nav-link" href="{{ url('/#contact') }}">Liên hệ</a>
                                 </li>
                             </ul>
                         </div>
@@ -209,7 +209,7 @@
                         </form>
                     </div>
 
-                    <a class="nav-quote" href="#" aria-label="Báo giá">
+                    <a class="nav-quote" href="{{ url('/#contact') }}" aria-label="Báo giá">
                         <svg viewBox="0 0 36 30" aria-hidden="true">
                             <path d="M13 4h21v22H13Z" />
                             <path d="m14 5 9.5 8L33 5" />
