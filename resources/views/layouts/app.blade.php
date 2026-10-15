@@ -7,6 +7,7 @@
     <title>@yield('title', 'Sudes Logistics | Trang chủ')</title>
 
     <link rel="stylesheet" href="{{ asset('vendor/bootstrap/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendor/swiper/swiper-bundle.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
 <body>
@@ -15,6 +16,7 @@
     @yield('content')
 
     <script src="{{ asset('vendor/bootstrap/bootstrap.bundle.min.js') }}" defer></script>
+    <script src="{{ asset('vendor/swiper/swiper-bundle.min.js') }}" defer></script>
     <script src="{{ asset('js/main.js') }}" defer></script>
 </body>
 </html>
