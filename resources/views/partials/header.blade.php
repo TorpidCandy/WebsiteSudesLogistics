@@ -82,17 +82,6 @@
 
                 <div class="collapse navbar-collapse" id="sudesNavbar">
                     <div class="site-nav-carousel">
-                        <button
-                            class="site-nav-arrow"
-                            type="button"
-                            data-nav-prev
-                            aria-label="Danh mục trước"
-                            disabled
-                        >
-                            <svg viewBox="0 0 24 24" aria-hidden="true">
-                                <path d="m15 5-7 7 7 7" />
-                            </svg>
-                        </button>
 
                         <div class="swiper site-nav-swiper" data-nav-slider>
                             <ul class="navbar-nav swiper-wrapper">
@@ -153,16 +142,30 @@
                             </ul>
                         </div>
 
-                        <button
-                            class="site-nav-arrow"
-                            type="button"
-                            data-nav-next
-                            aria-label="Danh mục tiếp theo"
-                        >
-                            <svg viewBox="0 0 24 24" aria-hidden="true">
-                                <path d="m9 5 7 7-7 7" />
-                            </svg>
-                        </button>
+                        <div class="site-nav-arrows">
+                            <button
+                                class="site-nav-arrow"
+                                type="button"
+                                data-nav-prev
+                                aria-label="Danh mục trước"
+                                disabled
+                            >
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="m15 5-7 7 7 7" />
+                                </svg>
+                            </button>
+
+                            <button
+                                class="site-nav-arrow"
+                                type="button"
+                                data-nav-next
+                                aria-label="Danh mục tiếp theo"
+                            >
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="m9 5 7 7-7 7" />
+                                </svg>
+                            </button>
+                        </div>
                     </div>
                 </div>
 
@@ -210,7 +213,7 @@
                         <svg viewBox="0 0 36 30" aria-hidden="true">
                             <path d="M13 4h21v22H13Z" />
                             <path d="m14 5 9.5 8L33 5" />
-                            <path d="M1 10h8M3 15h6M1 20h8" />
+                            <path d="M1 10h8M3 20h6" />
                         </svg>
                         <span>BÁO GIÁ</span>
                     </a>
