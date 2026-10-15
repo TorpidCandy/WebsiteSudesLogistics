@@ -15,6 +15,21 @@
 
     @yield('content')
 
+    @include('partials.footer')
+
+    <button
+        class="back-to-top"
+        type="button"
+        data-back-to-top
+        aria-label="Về đầu trang"
+        aria-hidden="true"
+        tabindex="-1"
+    >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m5 14 7-7 7 7M12 7v13" />
+        </svg>
+    </button>
+
     <script src="{{ asset('vendor/bootstrap/bootstrap.bundle.min.js') }}" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@14.3.0/swiper-bundle.min.js" defer></script>
     <script src="{{ asset('js/main.js') }}" defer></script>

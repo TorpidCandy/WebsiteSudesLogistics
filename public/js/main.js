@@ -230,4 +230,26 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     }
+
+    const backToTop = document.querySelector("[data-back-to-top]");
+
+    if (backToTop) {
+        function syncBackToTop() {
+            const visible = window.scrollY > 360;
+
+            backToTop.classList.toggle("is-visible", visible);
+            backToTop.setAttribute("aria-hidden", String(!visible));
+            backToTop.tabIndex = visible ? 0 : -1;
+        }
+
+        backToTop.addEventListener("click", function () {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+
+        window.addEventListener("scroll", syncBackToTop, { passive: true });
+        syncBackToTop();
+    }
 });
