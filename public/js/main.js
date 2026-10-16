@@ -2,6 +2,8 @@
 
 document.addEventListener("DOMContentLoaded", function () {
 
+    const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
     /* Hero slider */
 
     const heroElement = document.querySelector("[data-hero-slider]");
@@ -15,14 +17,14 @@ document.addEventListener("DOMContentLoaded", function () {
     if (window.Swiper && heroElement) {
         const heroSwiper = new Swiper(heroElement, {
             effect: "fade",
-            speed: 2600,
+            speed: prefersReducedMotion ? 0 : 2600,
             loop: false,
             slidesPerView: 1,
             slidesPerGroup: 1,
             fadeEffect: {
                 crossFade: true
             },
-            autoplay: {
+            autoplay: prefersReducedMotion ? false : {
                 delay: 4500,
                 disableOnInteraction: true,
                 stopOnLastSlide: true
@@ -77,6 +79,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 update: syncNavigationButtons
             }
         });
+
+        const navigationCollapse = document.querySelector("#sudesNavbar");
+
+        if (navigationCollapse) {
+            navigationCollapse.addEventListener("shown.bs.collapse", function () {
+                navigationSwiper.update();
+                syncNavigationButtons(navigationSwiper);
+            });
+        }
 
         syncNavigationButtons(navigationSwiper);
     }
@@ -247,23 +258,33 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    /* Homepage interactions — pause brand marquee on hover */
+    /* Customer testimonial slider */
 
-    const brandsTrack = document.querySelector(".brands-track");
+    const testimonialsElement = document.querySelector("[data-testimonials-slider]");
 
-    if (brandsTrack) {
-        brandsTrack.addEventListener("mouseenter", function () {
-            brandsTrack.style.animationPlayState = "paused";
-        });
-
-        brandsTrack.addEventListener("mouseleave", function () {
-            brandsTrack.style.animationPlayState = "running";
+    if (window.Swiper && testimonialsElement) {
+        new Swiper(testimonialsElement, {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+            spaceBetween: 18,
+            speed: prefersReducedMotion ? 0 : 500,
+            watchOverflow: true,
+            breakpoints: {
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 24
+                }
+            },
+            pagination: {
+                el: "[data-testimonials-pagination]",
+                clickable: true
+            }
         });
     }
 
-    /* AOS — khởi tạo một lần sau khi DOM sẵn sàng */
+    /* AOS — initialize only when motion is allowed */
 
-    if (window.AOS) {
+    if (window.AOS && !prefersReducedMotion) {
         AOS.init({
             duration: 700,
             easing: "ease-out-cubic",
@@ -271,6 +292,7 @@ document.addEventListener("DOMContentLoaded", function () {
             offset: 60,
             mirror: false
         });
+        document.body.classList.add("aos-ready");
     }
 
     /* Back-to-top */
@@ -289,7 +311,7 @@ document.addEventListener("DOMContentLoaded", function () {
         backToTop.addEventListener("click", function () {
             window.scrollTo({
                 top: 0,
-                behavior: "smooth"
+                behavior: prefersReducedMotion ? "auto" : "smooth"
             });
         });
 

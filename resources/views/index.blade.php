@@ -142,7 +142,7 @@
                                 </svg>
                             </div>
                             <h3>Yêu cầu báo giá</h3>
-                            <p>Tiếp nhận thông tin hàng hóa và nhu cầu vận chuyển. Cung cấp báo giá nhanh chóng, minh bạch.</p>
+                            <p>Khách hàng gửi yêu cầu báo giá dịch vụ theo nhu cầu. Chúng tôi nhanh chóng phản hồi với chi phí tối ưu và giải pháp phù hợp nhất cho từng lô hàng.</p>
                         </article>
                     </div>
                     <div class="col" data-aos="fade-up" data-aos-delay="100">
@@ -155,7 +155,7 @@
                                 </svg>
                             </div>
                             <h3>Tiếp nhận đơn hàng</h3>
-                            <p>Xác nhận yêu cầu và ký kết phương án thực hiện. Phân công nhân sự và lập kế hoạch vận hành.</p>
+                            <p>Sau khi thống nhất báo giá, chúng tôi tiếp nhận thông tin đơn hàng, xác nhận chi tiết và bắt đầu tiến hành các thủ tục xử lý một cách chính xác và nhanh chóng.</p>
                         </article>
                     </div>
                     <div class="col" data-aos="fade-up" data-aos-delay="200">
@@ -168,8 +168,8 @@
                                     <path d="M16 6h16v10H16z" />
                                 </svg>
                             </div>
-                            <h3>Đặt kho bãi &amp; lưu trữ</h3>
-                            <p>Phối hợp xử lý và lưu trữ hàng hóa theo kế hoạch. Đảm bảo điều kiện bảo quản phù hợp.</p>
+                            <h3>Đặt Kho bãi và lưu trữ</h3>
+                            <p>Hàng hóa được sắp xếp vào kho bãi phù hợp, đảm bảo điều kiện bảo quản an toàn, kiểm soát số lượng, tình trạng và hỗ trợ truy xuất dễ dàng khi cần.</p>
                         </article>
                     </div>
                     <div class="col" data-aos="fade-up" data-aos-delay="300">
@@ -182,8 +182,8 @@
                                     <circle cx="36" cy="36" r="4" />
                                 </svg>
                             </div>
-                            <h3>Vận chuyển &amp; giao hàng</h3>
-                            <p>Điều phối vận chuyển và hoàn tất giao nhận đúng hạn. Cập nhật trạng thái đơn hàng liên tục.</p>
+                            <h3>Vận chuyển sản phẩm</h3>
+                            <p>Chúng tôi tiến hành vận chuyển hàng hóa đến đúng địa điểm, đúng thời gian với các phương tiện chuyên dụng, đảm bảo an toàn và tối ưu hóa chi phí.</p>
                         </article>
                     </div>
                 </div>
@@ -196,50 +196,38 @@
                 [
                     'id'          => 'service-customs-clearance',
                     'title'       => 'Đại lý Hải quan',
-                    'description' => 'Tư vấn và thực hiện thủ tục khai báo hải quan cho hàng xuất nhập khẩu, đảm bảo nhanh chóng và đúng quy định.',
                     'image'       => 'images/customs-clearance-team.png',
                 ],
                 [
                     'id'          => 'service-cargo-insurance',
                     'title'       => 'Bảo hiểm Hàng hóa',
-                    'description' => 'Cung cấp giải pháp bảo hiểm toàn diện cho hàng hóa trong suốt quá trình vận chuyển, giảm thiểu rủi ro tổn thất.',
                     'image'       => 'images/cargo-handling-team.png',
                 ],
                 [
                     'id'          => 'service-air-freight',
-                    'title'       => 'Vận chuyển Hàng không Quốc tế',
-                    'description' => 'Dịch vụ vận chuyển hàng không nhanh chóng đến các cảng quốc tế lớn, phù hợp hàng có giá trị cao hoặc gấp thời gian.',
-                    'image'       => 'images/multimodal-logistics-collage-thumbnail.png',
+                    'title'       => 'Vận chuyển hàng không quốc tế',
                 ],
                 [
                     'id'          => 'service-sea-freight',
-                    'title'       => 'Vận chuyển Đường biển Quốc tế',
-                    'description' => 'Vận chuyển container FCL/LCL đến các cảng trên toàn thế giới với chi phí tối ưu và lịch trình ổn định.',
+                    'title'       => 'Vận chuyển đường biển quốc tế',
                     'image'       => 'images/ocean-freight-vessel.png',
                 ],
                 [
                     'id'          => 'service-domestic-transport',
-                    'title'       => 'Vận chuyển Nội địa',
-                    'description' => 'Mạng lưới xe tải phủ rộng toàn quốc, giao hàng đúng giờ và đảm bảo chất lượng từ kho đến tay khách hàng.',
-                    'image'       => 'images/logistics-network-aerial.png',
+                    'title'       => 'Vận chuyển nội bộ',
                 ],
                 [
                     'id'          => 'service-heavy-lift',
-                    'title'       => 'Nâng hạ, cẩu và lắp đặt hàng siêu trường, siêu trọng',
-                    'description' => 'Giải pháp vận chuyển và lắp đặt chuyên biệt cho thiết bị công nghiệp, máy móc siêu trường siêu trọng.',
-                    'image'       => 'images/smart-logistics-network.png',
+                    'title'       => 'Nâng hạ - cẩu - lắp đặt hàng siêu trường, siêu trọng',
                 ],
                 [
                     'id'          => 'service-warehouse-distribution',
-                    'title'       => 'Cho thuê Kho bãi và Phân phối hàng hóa',
-                    'description' => 'Hệ thống kho hiện đại, đạt chuẩn, tích hợp dịch vụ phân phối và quản lý hàng tồn kho hiệu quả.',
-                    'image'       => 'images/warehouse-sorting-facility.png',
+                    'title'       => 'Dịch vụ cho thuê kho bãi, phân phối hàng hóa',
+                    'image'       => 'images/conveyor-sorting-facility.png',
                 ],
                 [
                     'id'          => 'service-import-export-documents',
-                    'title'       => 'Chứng từ và Tư vấn Xuất Nhập khẩu',
-                    'description' => 'Hỗ trợ chuẩn bị chứng từ xuất nhập khẩu, tư vấn quy trình, thuế quan và các yêu cầu pháp lý liên quan.',
-                    'image'       => 'images/multimodal-logistics-collage.png',
+                    'title'       => 'Dịch vụ chứng từ & Tư vấn xuất nhập khẩu',
                 ],
             ];
         @endphp
@@ -250,26 +238,22 @@
                     <p class="section-kicker">GIẢI PHÁP CHUỖI CUNG ỨNG</p>
                     <h2 class="section-title" id="services-title">DỊCH VỤ CỦA SUDES LOGISTICS</h2>
                 </div>
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-4 g-4">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-4 g-3">
                     @foreach ($services as $index => $service)
                         <div class="col" data-aos="fade-up" data-aos-delay="{{ ($index % 4) * 80 }}">
                             <article class="service-card" id="{{ $service['id'] }}">
-                                <a class="service-image" href="#contact">
-                                    <img
-                                        src="{{ asset($service['image']) }}"
-                                        alt="{{ $service['title'] }}"
-                                        loading="lazy"
-                                    >
-                                </a>
+                                @if (!empty($service['image']))
+                                    <div class="service-image">
+                                        <img
+                                            src="{{ asset($service['image']) }}"
+                                            alt=""
+                                            loading="lazy"
+                                        >
+                                    </div>
+                                @endif
                                 <div class="service-card-content">
+                                    <span class="service-number">{{ str_pad($index + 1, 2, '0', STR_PAD_LEFT) }}</span>
                                     <h3>{{ $service['title'] }}</h3>
-                                    <p class="service-description">{{ $service['description'] }}</p>
-                                    <a class="service-more" href="#contact">
-                                        Tìm hiểu thêm
-                                        <svg viewBox="0 0 20 20" aria-hidden="true" width="16" height="16">
-                                            <path d="M4 10h12M10 4l6 6-6 6" />
-                                        </svg>
-                                    </a>
                                 </div>
                             </article>
                         </div>
@@ -281,41 +265,44 @@
         {{-- WHY US / STATISTICS --}}
         <section class="section section-why" id="why-us" aria-labelledby="why-title">
             <div class="container">
-                <div class="row align-items-center g-4 g-xl-5">
-                    <div class="col-12 col-lg-5" data-aos="fade-right">
-                        <p class="section-kicker">NĂNG LỰC VẬN HÀNH</p>
-                        <h2 class="section-title" id="why-title">TẠI SAO CHỌN CHÚNG TÔI?</h2>
-                        <h3>Với hơn 10 năm kinh nghiệm</h3>
-                        <p>
-                            Sudes Logistics định hướng trở thành công ty hậu cần chuỗi cung ứng
-                            được tin dùng nhất, nhờ hiểu biết sâu sắc về thị trường, chất lượng
-                            dịch vụ vượt trội, tinh thần đổi mới và cam kết tăng trưởng bền vững
-                            cùng doanh nghiệp khách hàng.
-                        </p>
-                        <a class="button" href="#contact">LIÊN HỆ NGAY</a>
+                <div class="section-heading section-heading-centered" data-aos="fade-up">
+                    <p class="section-kicker">TẠI SAO CHỌN CHÚNG TÔI?</p>
+                    <h2 class="section-title" id="why-title">VỚI 10 NĂM KINH NGHIỆM</h2>
+                    <p class="section-intro">
+                        Trở thành công ty hậu cần chuỗi cung ứng được ưa thích nhất trên thế giới
+                        vì hiểu biết sâu sắc, chất lượng dịch vụ tốt nhất, đổi mới và tăng trưởng
+                        không ngừng cho doanh nghiệp và xã hội.
+                    </p>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-5 g-3 stats-grid">
+                    <div class="col" data-aos="fade-up" data-aos-delay="0">
+                        <div class="stat-card">
+                            <strong>30 CỤM KHO</strong>
+                            <span>Trên toàn quốc</span>
+                        </div>
                     </div>
-                    <div class="col-12 col-lg-7" data-aos="fade-left" data-aos-delay="100">
-                        <div class="stats-grid">
-                            <div class="stat-card" data-aos="fade-up" data-aos-delay="0">
-                                <strong>30</strong>
-                                <span>Cụm kho trên toàn quốc</span>
-                            </div>
-                            <div class="stat-card" data-aos="fade-up" data-aos-delay="80">
-                                <strong>300.000 m³</strong>
-                                <span>Tổng sức chứa</span>
-                            </div>
-                            <div class="stat-card" data-aos="fade-up" data-aos-delay="160">
-                                <strong>250</strong>
-                                <span>Cán bộ nhân viên</span>
-                            </div>
-                            <div class="stat-card" data-aos="fade-up" data-aos-delay="240">
-                                <strong>100</strong>
-                                <span>Xe tải chuyên dụng</span>
-                            </div>
-                            <div class="stat-card stat-card-highlight" data-aos="fade-up" data-aos-delay="320">
-                                <strong>5.000+</strong>
-                                <span>Khách hàng tin tưởng</span>
-                            </div>
+                    <div class="col" data-aos="fade-up" data-aos-delay="80">
+                        <div class="stat-card">
+                            <strong>300000 M3</strong>
+                            <span>Tổng sức chứa</span>
+                        </div>
+                    </div>
+                    <div class="col" data-aos="fade-up" data-aos-delay="160">
+                        <div class="stat-card">
+                            <strong>250</strong>
+                            <span>Cán bộ nhân viên</span>
+                        </div>
+                    </div>
+                    <div class="col" data-aos="fade-up" data-aos-delay="240">
+                        <div class="stat-card">
+                            <strong>100 XE TẢI</strong>
+                            <span>Chuyên dụng</span>
+                        </div>
+                    </div>
+                    <div class="col" data-aos="fade-up" data-aos-delay="320">
+                        <div class="stat-card">
+                            <strong>+5000</strong>
+                            <span>Khách hàng tin tưởng &amp; sử dụng dịch vụ</span>
                         </div>
                     </div>
                 </div>
@@ -326,31 +313,31 @@
         @php
             $newsItems = [
                 [
-                    'title'       => 'Xu hướng Nổi bật trong Logistics Toàn cầu: Định hình Tương lai Chuỗi Cung ứng',
-                    'description' => 'Công nghệ, kỳ vọng khách hàng và yêu cầu phát triển bền vững đang thúc đẩy ngành logistics thay đổi nhanh chóng.',
+                    'title'       => 'Xu Hướng Nổi Bật Trong Logistics Toàn Cầu: Định Hình Tương Lai Chuỗi Cung Ứng',
+                    'description' => 'Ngành logistics toàn cầu đang chứng kiến những thay đổi sâu rộng, được thúc đẩy bởi tiến bộ công nghệ, sự thay đổi trong kỳ vọng và nhận thức về môi trường. Để duy trì tính cạnh tranh...',
                     'date'        => '2025-06-02',
                     'date_label'  => '02/06/2025',
                     'image'       => 'images/logistics-network-aerial.png',
                 ],
                 [
-                    'title'       => 'Tối ưu hóa Hiệu quả Vận tải trong Logistics: Chìa khóa tăng trưởng bền vững',
-                    'description' => 'Tối ưu hoạt động vận tải giúp tiết kiệm chi phí, nâng cao chất lượng dịch vụ và tăng sức cạnh tranh cho chuỗi cung ứng.',
-                    'date'        => '2025-05-18',
-                    'date_label'  => '18/05/2025',
-                    'image'       => 'images/conveyor-sorting-facility.png',
+                    'title'       => 'Tối Ưu Hóa Hiệu Quả Vận Tải Trong Logistics: Chìa Khóa Tăng Trưởng Bền Vững',
+                    'description' => 'Trong bối cảnh kinh doanh cạnh tranh ngày nay, hiệu quả vận tải là một trong những yếu tố then chốt quyết định sự thành công của chuỗi cung ứng. Việc tối ưu hóa hoạt động vận tải...',
+                    'date'        => '2025-06-02',
+                    'date_label'  => '02/06/2025',
+                    'image'       => 'images/logistics-transport-background.png',
                 ],
                 [
-                    'title'       => 'Logistics ngược: Xu hướng quan trọng trong chuỗi cung ứng hiện đại',
-                    'description' => 'Logistics ngược quản lý dòng hàng quay trở lại điểm xuất phát nhằm thu hồi giá trị hoặc xử lý hàng hóa.',
-                    'date'        => '2025-04-24',
-                    'date_label'  => '24/04/2025',
+                    'title'       => 'Logistics Ngược: Xu Hướng Quan Trọng Trong Chuỗi Cung Ứng Hiện Đại',
+                    'description' => 'Trong ngành logistics, khi nhắc đến chuỗi cung ứng, người ta thường hình dung về dòng chảy hàng hóa từ nhà sản xuất đến tay người tiêu dùng. Tuy nhiên, một khía cạnh ngày càng quan trọng...',
+                    'date'        => '2025-06-02',
+                    'date_label'  => '02/06/2025',
                     'image'       => 'images/warehouse-sorting-operations.png',
                 ],
                 [
-                    'title'       => 'Ngành Logistics: Động lực tăng trưởng và những thách thức mới',
-                    'description' => 'Số hóa, thương mại điện tử và biến động thị trường đang định hình những cơ hội cũng như thách thức mới của ngành.',
-                    'date'        => '2025-03-10',
-                    'date_label'  => '10/03/2025',
+                    'title'       => 'Ngành Logistics: Động Lực Tăng Trưởng Và Những Thách Thức Mới',
+                    'description' => 'Ngành logistics toàn cầu đang trải qua giai đoạn chuyển mình mạnh mẽ, vừa là động lực chính cho sự phát triển kinh tế, vừa đối mặt với hàng loạt thách thức và cơ hội mới...',
+                    'date'        => '2025-06-02',
+                    'date_label'  => '02/06/2025',
                     'image'       => 'images/multimodal-logistics-collage.png',
                 ],
             ];
@@ -366,19 +353,23 @@
                     @foreach ($newsItems as $index => $news)
                         <div class="col" data-aos="fade-up" data-aos-delay="{{ ($index % 4) * 80 }}">
                             <article class="news-card">
-                                <a class="news-image" href="#">
+                                <div class="news-image">
                                     <img
                                         src="{{ asset($news['image']) }}"
                                         alt="{{ $news['title'] }}"
                                         loading="lazy"
                                     >
-                                </a>
+                                </div>
                                 <div class="news-content">
                                     <time datetime="{{ $news['date'] }}">{{ $news['date_label'] }}</time>
-                                    <h3>
-                                        <a href="#">{{ $news['title'] }}</a>
-                                    </h3>
+                                    <h3>{{ $news['title'] }}</h3>
                                     <p class="news-description">{{ $news['description'] }}</p>
+                                    <span class="news-more">
+                                        Đọc thêm
+                                        <svg viewBox="0 0 20 20" aria-hidden="true" width="16" height="16">
+                                            <path d="M4 10h12M10 4l6 6-6 6" />
+                                        </svg>
+                                    </span>
                                 </div>
                             </article>
                         </div>
@@ -392,14 +383,11 @@
             <div class="container">
                 <div class="row align-items-start g-4 g-xl-5">
                     <div class="col-12 col-lg-5" data-aos="fade-right">
-                        <p class="section-kicker">HỖ TRỢ KHÁCH HÀNG</p>
-                        <h2 class="section-title" id="faq-title">CÂU HỎI THƯỜNG GẶP</h2>
-                        <img
-                            class="faq-image"
-                            src="{{ asset('images/company-logistics-collage.png') }}"
-                            alt="Hoạt động logistics"
-                            loading="lazy"
-                        >
+                        <p class="section-kicker">FAQ?</p>
+                        <h2 class="section-title" id="faq-title">Câu hỏi thường gặp</h2>
+                        <p class="section-intro">
+                            Thông tin giải đáp một số câu hỏi thường gặp về dịch vụ logistics.
+                        </p>
                     </div>
                     <div class="col-12 col-lg-7" data-aos="fade-left" data-aos-delay="100">
                         <div class="accordion faq-accordion" id="sudesFaqAccordion">
@@ -416,9 +404,11 @@
                                 <div id="faqAnswerOne" class="accordion-collapse collapse show"
                                     data-bs-parent="#sudesFaqAccordion">
                                     <div class="accordion-body">
-                                        Chuẩn bị thông tin loại hàng, số lượng, kích thước,
-                                        địa chỉ nhận và giao; thông báo trước các yêu cầu
-                                        đặc biệt về bảo quản hoặc thời gian giao nhận.
+                                        Bạn chỉ cần cung cấp thông tin chi tiết về loại hàng hóa,
+                                        số lượng, kích thước, địa chỉ nhận và giao hàng. Nếu có
+                                        yêu cầu đặc biệt như bảo quản lạnh, đóng gói riêng hay
+                                        thời gian giao nhận cụ thể, hãy thông báo trước để chúng
+                                        tôi chuẩn bị dịch vụ phù hợp nhất.
                                     </div>
                                 </div>
                             </div>
@@ -435,8 +425,11 @@
                                 <div id="faqAnswerTwo" class="accordion-collapse collapse"
                                     data-bs-parent="#sudesFaqAccordion">
                                     <div class="accordion-body">
-                                        Thời gian phụ thuộc vào tuyến đường, loại hình dịch vụ
-                                        và điều kiện giao nhận của từng lô hàng.
+                                        Thời gian vận chuyển phụ thuộc vào khoảng cách, loại dịch
+                                        vụ (tiêu chuẩn, nhanh, tiết kiệm), và điều kiện giao thông.
+                                        Trong nước thường mất từ 1–3 ngày, quốc tế có thể kéo dài
+                                        5–10 ngày. Với hàng gấp, chúng tôi có các giải pháp vận
+                                        chuyển ưu tiên nhanh chóng và đúng hẹn.
                                     </div>
                                 </div>
                             </div>
@@ -453,8 +446,10 @@
                                 <div id="faqAnswerThree" class="accordion-collapse collapse"
                                     data-bs-parent="#sudesFaqAccordion">
                                     <div class="accordion-body">
-                                        Liên hệ Sudes Logistics qua hotline hoặc email
-                                        để trao đổi về tiến trình giao nhận.
+                                        Chúng tôi sẽ thông báo cho bạn về tình trạng đơn hàng qua
+                                        email hoặc điện thoại khi có bất kỳ cập nhật quan trọng
+                                        nào. Bạn có thể liên hệ trực tiếp với chúng tôi để yêu
+                                        cầu thông tin chi tiết về tiến độ giao hàng.
                                     </div>
                                 </div>
                             </div>
@@ -471,8 +466,11 @@
                                 <div id="faqAnswerFour" class="accordion-collapse collapse"
                                     data-bs-parent="#sudesFaqAccordion">
                                     <div class="accordion-body">
-                                        Chi phí phụ thuộc vào trọng lượng, kích thước, loại hàng,
-                                        quãng đường và phương thức vận chuyển.
+                                        Chi phí vận chuyển dựa trên nhiều yếu tố như trọng lượng,
+                                        kích thước hàng, loại hàng (thông thường hay đặc biệt),
+                                        quãng đường di chuyển và hình thức vận chuyển (bộ, thủy,
+                                        hàng không). Chúng tôi luôn cung cấp bảng giá rõ ràng,
+                                        minh bạch và hỗ trợ báo giá nhanh theo yêu cầu.
                                     </div>
                                 </div>
                             </div>
@@ -486,108 +484,116 @@
         <section class="section section-testimonials" id="testimonials" aria-labelledby="testimonials-title">
             <div class="container">
                 <div class="section-heading section-heading-centered" data-aos="fade-up">
-                    <p class="section-kicker">KHÁCH HÀNG NÓI GÌ</p>
+                    <p class="section-kicker">FEEDBACK</p>
                     <h2 class="section-title" id="testimonials-title">ĐÁNH GIÁ KHÁCH HÀNG</h2>
                 </div>
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col" data-aos="fade-up" data-aos-delay="0">
-                        <article class="testimonial-card">
-                            <div class="testimonial-rating" aria-label="5 sao">
-                                <span class="testimonial-stars" aria-hidden="true">★★★★★</span>
-                            </div>
-                            <blockquote class="testimonial-quote">
-                                <p>Sudes Logistics đã hỗ trợ chúng tôi vận chuyển lô hàng xuất khẩu đúng deadline trong tình huống rất gấp. Đội ngũ chuyên nghiệp, phối hợp nhanh chóng và minh bạch về chi phí.</p>
-                            </blockquote>
-                            <div class="testimonial-author">
-                                <img
-                                    src="{{ asset('images/customer-portrait-01.png') }}"
-                                    alt=""
-                                    loading="lazy"
-                                    aria-hidden="true"
-                                >
-                                <div class="testimonial-info">
-                                    <h3>Nguyễn Trung Anh</h3>
-                                    <p>Giám đốc Logistics – Công ty cổ phần May mặc K&amp;K</p>
+                <div class="swiper testimonial-swiper" data-testimonials-slider>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <article class="testimonial-card">
+                                <div class="testimonial-rating" aria-label="4 sao trên 5">
+                                    <span class="testimonial-stars" aria-hidden="true">★★★★<span>★</span></span>
                                 </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col" data-aos="fade-up" data-aos-delay="100">
-                        <article class="testimonial-card">
-                            <div class="testimonial-rating" aria-label="5 sao">
-                                <span class="testimonial-stars" aria-hidden="true">★★★★★</span>
-                            </div>
-                            <blockquote class="testimonial-quote">
-                                <p>Dịch vụ kho bãi và phân phối của Sudes giúp chúng tôi tối ưu được chi phí lưu kho đáng kể. Hệ thống theo dõi hàng hóa rõ ràng, dễ kiểm soát tồn kho.</p>
-                            </blockquote>
-                            <div class="testimonial-author">
-                                <img
-                                    src="{{ asset('images/customer-portrait-02.png') }}"
-                                    alt=""
-                                    loading="lazy"
-                                    aria-hidden="true"
-                                >
-                                <div class="testimonial-info">
-                                    <h3>Nguyễn Ngọc Sơn</h3>
-                                    <p>Quản lý Vận hành – Công ty CP Thực phẩm Đông Nam</p>
+                                <blockquote class="testimonial-quote">
+                                    <p>Sudes Logistic là đối tác không thể thiếu trong chuỗi cung ứng của chúng tôi. Dịch vụ nhanh, chuyên nghiệp và luôn đúng cam kết.</p>
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    <img
+                                        src="{{ asset('images/customer-portrait-01.png') }}"
+                                        alt=""
+                                        loading="lazy"
+                                        aria-hidden="true"
+                                    >
+                                    <div class="testimonial-info">
+                                        <h3>Nguyễn Trung Anh</h3>
+                                        <p>Giám đốc Logistics – Công ty cổ phần May mặc K&amp;K</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col" data-aos="fade-up" data-aos-delay="200">
-                        <article class="testimonial-card">
-                            <div class="testimonial-rating" aria-label="5 sao">
-                                <span class="testimonial-stars" aria-hidden="true">★★★★★</span>
-                            </div>
-                            <blockquote class="testimonial-quote">
-                                <p>Nhờ đội ngũ hải quan chuyên nghiệp của Sudes, quy trình thông quan cho thiết bị nhập khẩu của chúng tôi diễn ra trơn tru, không bị tắc nghẽn như trước đây.</p>
-                            </blockquote>
-                            <div class="testimonial-author">
-                                <img
-                                    src="{{ asset('images/customer-portrait-03.png') }}"
-                                    alt=""
-                                    loading="lazy"
-                                    aria-hidden="true"
-                                >
-                                <div class="testimonial-info">
-                                    <h3>Lê Quang Hải</h3>
-                                    <p>Trưởng phòng Mua hàng – Công ty TNHH Thiết bị Công nghiệp HT</p>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="testimonial-card">
+                                <div class="testimonial-rating" aria-label="5 sao trên 5">
+                                    <span class="testimonial-stars" aria-hidden="true">★★★★★</span>
                                 </div>
-                            </div>
-                        </article>
+                                <blockquote class="testimonial-quote">
+                                    <p>Tôi ấn tượng với cách Sudes xử lý linh hoạt và kịp thời trong các tình huống khẩn. Đội ngũ hỗ trợ rất nhiệt tình và bài bản.</p>
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    <img
+                                        src="{{ asset('images/customer-portrait-02.png') }}"
+                                        alt=""
+                                        loading="lazy"
+                                        aria-hidden="true"
+                                    >
+                                    <div class="testimonial-info">
+                                        <h3>Nguyễn Ngọc Sơn</h3>
+                                        <p>Quản lý Vận hành – Công ty CP Thực phẩm Đông Nam</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="testimonial-card">
+                                <div class="testimonial-rating" aria-label="5 sao trên 5">
+                                    <span class="testimonial-stars" aria-hidden="true">★★★★★</span>
+                                </div>
+                                <blockquote class="testimonial-quote">
+                                    <p>Chúng tôi đã làm việc với nhiều đơn vị logistics, nhưng Sudes là cái tên tạo được sự tin tưởng lâu dài nhờ phong cách làm việc rõ ràng và hiệu quả.</p>
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    <img
+                                        src="{{ asset('images/customer-portrait-03.png') }}"
+                                        alt=""
+                                        loading="lazy"
+                                        aria-hidden="true"
+                                    >
+                                    <div class="testimonial-info">
+                                        <h3>Lê Quang Hải</h3>
+                                        <p>Trưởng phòng Mua hàng – Công ty TNHH Thiết bị Công nghiệp HT</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
                     </div>
+                    <div class="testimonial-pagination swiper-pagination" data-testimonials-pagination aria-label="Chọn đánh giá"></div>
                 </div>
             </div>
         </section>
 
-        {{-- BRAND LOGOS / PARTNER --}}
-        <section class="section section-brands" aria-label="Đối tác và khách hàng của Sudes Logistics">
+        {{-- PARTNERS AND LOGISTICS NETWORK --}}
+        <section class="section section-partners" id="partners" aria-labelledby="partners-title">
             <div class="container">
-                <div class="section-heading section-heading-centered" data-aos="fade-up">
-                    <p class="section-kicker">ĐỐI TÁC TIN TƯỞNG</p>
-                    <h2 class="section-title">KHÁCH HÀNG &amp; ĐỐI TÁC</h2>
-                </div>
-                <div class="brands-track-wrap" data-aos="fade-up" data-aos-delay="80">
-                    <div class="brands-track">
-                        @for ($i = 1; $i <= 20; $i++)
-                            <div class="brand-logo-item">
-                                <img
-                                    src="{{ asset('images/brand-logo-' . str_pad($i, 2, '0', STR_PAD_LEFT) . '.png') }}"
-                                    alt="Đối tác {{ $i }}"
-                                    loading="lazy"
-                                >
-                            </div>
-                        @endfor
-                        {{-- Lặp lại để tạo hiệu ứng cuộn liên tục --}}
-                        @for ($i = 1; $i <= 20; $i++)
-                            <div class="brand-logo-item" aria-hidden="true">
-                                <img
-                                    src="{{ asset('images/brand-logo-' . str_pad($i, 2, '0', STR_PAD_LEFT) . '.png') }}"
-                                    alt=""
-                                    loading="lazy"
-                                >
-                            </div>
-                        @endfor
+                <div class="row align-items-center g-4 g-xl-5">
+                    <div class="col-12 col-xl-7" data-aos="fade-right">
+                        <h2 class="section-title" id="partners-title">Cùng Sudes Logistic tạo nên giá trị bền vững!</h2>
+                        <p class="partners-description">
+                            Tại Sudes Logistic, chúng tôi luôn đề cao tinh thần hợp tác cùng phát triển.
+                            Với mỗi đối tác, chúng tôi cam kết minh bạch, đồng hành dài hạn và cùng xây
+                            dựng giải pháp logistics hiệu quả, linh hoạt theo từng nhu cầu cụ thể. Bằng
+                            kinh nghiệm vận hành và mạng lưới kết nối rộng khắp, Sudes Logistic không
+                            chỉ hỗ trợ tối ưu chi phí mà còn góp phần nâng cao năng lực cạnh tranh và
+                            phát triển bền vững cho cả hai bên.
+                        </p>
+                        <div class="partner-logo-grid" aria-label="Đối tác logistics">
+                            @for ($i = 1; $i <= 20; $i++)
+                                <div class="partner-logo-item">
+                                    <img
+                                        src="{{ asset('images/brand-logo-' . str_pad($i, 2, '0', STR_PAD_LEFT) . '.png') }}"
+                                        alt="Logo đối tác {{ $i }}"
+                                        loading="lazy"
+                                    >
+                                </div>
+                            @endfor
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-5" data-aos="fade-left" data-aos-delay="100">
+                        <img
+                            class="partners-map"
+                            src="{{ asset('images/vietnam-logistics-network-map.png') }}"
+                            alt="Bản đồ mạng lưới logistics tại Việt Nam"
+                            loading="lazy"
+                        >
                     </div>
                 </div>
             </div>
