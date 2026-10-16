@@ -97,7 +97,9 @@ body:not(.aos-ready) [data-aos] {
     opacity: 1 !important;
 }
 
-a {
+a,
+buttons
+{
     cursor: pointer;
 }
 
