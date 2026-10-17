@@ -27,8 +27,8 @@
                                     hiệu quả. Nâng cao vận hành, mở rộng thị trường.
                                 </p>
                                 <div class="hero-actions">
-                                    <a class="hero-cta" href="#contact">BÁO GIÁ NGAY</a>
-                                    <a class="hero-cta hero-cta-outline" href="#about">Tìm hiểu thêm</a>
+                                    <a class="button hero-cta" href="#contact">BÁO GIÁ NGAY</a>
+                                    <a class="button hero-cta hero-cta-outline" href="#about">Tìm hiểu thêm</a>
                                 </div>
                             </div>
                         </div>
@@ -61,7 +61,6 @@
                     </article>
                 </div>
 
-                <div class="hero-pagination swiper-pagination" aria-label="Chọn slide"></div>
             </div>
         </section>
 
@@ -194,40 +193,44 @@
         @php
             $services = [
                 [
-                    'id'          => 'service-customs-clearance',
-                    'title'       => 'Đại lý Hải quan',
-                    'image'       => 'images/customs-clearance-team.png',
+                    'id'    => 'service-customs-clearance',
+                    'title' => 'Đại lý Hải quan',
+                    'image' => 'images/service-customs-clearance.jpg',
                 ],
                 [
-                    'id'          => 'service-cargo-insurance',
-                    'title'       => 'Bảo hiểm Hàng hóa',
-                    'image'       => 'images/cargo-handling-team.png',
+                    'id'    => 'service-cargo-insurance',
+                    'title' => 'Bảo hiểm Hàng hóa',
+                    'image' => 'images/service-cargo-insurance.jpg',
                 ],
                 [
-                    'id'          => 'service-air-freight',
-                    'title'       => 'Vận chuyển hàng không quốc tế',
+                    'id'    => 'service-air-freight',
+                    'title' => 'Vận chuyển hàng không quốc tế',
+                    'image' => 'images/service-air-freight.jpg',
                 ],
                 [
-                    'id'          => 'service-sea-freight',
-                    'title'       => 'Vận chuyển đường biển quốc tế',
-                    'image'       => 'images/ocean-freight-vessel.png',
+                    'id'    => 'service-sea-freight',
+                    'title' => 'Vận chuyển đường biển quốc tế',
+                    'image' => 'images/service-sea-freight.jpg',
                 ],
                 [
-                    'id'          => 'service-domestic-transport',
-                    'title'       => 'Vận chuyển nội bộ',
+                    'id'    => 'service-domestic-transport',
+                    'title' => 'Vận chuyển nội bộ',
+                    'image' => 'images/service-domestic-transport.jpg',
                 ],
                 [
-                    'id'          => 'service-heavy-lift',
-                    'title'       => 'Nâng hạ - cẩu - lắp đặt hàng siêu trường, siêu trọng',
+                    'id'    => 'service-heavy-lift',
+                    'title' => 'Nâng hạ - cẩu - lắp đặt hàng siêu trường, siêu trọng',
+                    'image' => 'images/service-heavy-lift.jpg',
                 ],
                 [
-                    'id'          => 'service-warehouse-distribution',
-                    'title'       => 'Dịch vụ cho thuê kho bãi, phân phối hàng hóa',
-                    'image'       => 'images/conveyor-sorting-facility.png',
+                    'id'    => 'service-warehouse-distribution',
+                    'title' => 'Dịch vụ cho thuê kho bãi, phân phối hàng hóa',
+                    'image' => 'images/service-warehouse-distribution.jpg',
                 ],
                 [
-                    'id'          => 'service-import-export-documents',
-                    'title'       => 'Dịch vụ chứng từ & Tư vấn xuất nhập khẩu',
+                    'id'    => 'service-import-export-documents',
+                    'title' => 'Dịch vụ chứng từ & Tư vấn xuất nhập khẩu',
+                    'image' => 'images/service-import-export-documents.jpg',
                 ],
             ];
         @endphp
@@ -242,15 +245,13 @@
                     @foreach ($services as $index => $service)
                         <div class="col" data-aos="fade-up" data-aos-delay="{{ ($index % 4) * 80 }}">
                             <article class="service-card" id="{{ $service['id'] }}">
-                                @if (!empty($service['image']))
-                                    <div class="service-image">
-                                        <img
-                                            src="{{ asset($service['image']) }}"
-                                            alt=""
-                                            loading="lazy"
-                                        >
-                                    </div>
-                                @endif
+                                <div class="service-image">
+                                    <img
+                                        src="{{ asset($service['image']) }}"
+                                        alt=""
+                                        loading="lazy"
+                                    >
+                                </div>
                                 <div class="service-card-content">
                                     <span class="service-number">{{ str_pad($index + 1, 2, '0', STR_PAD_LEFT) }}</span>
                                     <h3>{{ $service['title'] }}</h3>
@@ -364,12 +365,12 @@
                                     <time datetime="{{ $news['date'] }}">{{ $news['date_label'] }}</time>
                                     <h3>{{ $news['title'] }}</h3>
                                     <p class="news-description">{{ $news['description'] }}</p>
-                                    <span class="news-more">
+                                    <a class="news-more" href="#">
                                         Đọc thêm
                                         <svg viewBox="0 0 20 20" aria-hidden="true" width="16" height="16">
                                             <path d="M4 10h12M10 4l6 6-6 6" />
                                         </svg>
-                                    </span>
+                                    </a>
                                 </div>
                             </article>
                         </div>

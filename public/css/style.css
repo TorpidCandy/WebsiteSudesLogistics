@@ -802,20 +802,8 @@ a.topbar-contact-item:hover {
 }
 
 .hero-cta {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
     height: 52px;
     padding: 0 30px;
-    border: 2px solid var(--sudes-orange);
-    border-radius: 4px;
-    color: #fff;
-    background: var(--sudes-orange);
-    font: inherit;
-    font-size: 15px;
-    font-weight: 700;
-    text-decoration: none;
-    transition: background-color 180ms ease, border-color 180ms ease;
 }
 
 .hero-cta:hover,
@@ -1231,6 +1219,8 @@ a.topbar-contact-item:hover {
     margin-top: 12px;
     color: var(--sudes-orange);
     font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .news-more svg {
@@ -1565,7 +1555,19 @@ a.topbar-contact-item:hover {
     color: rgb(255 255 255 / 80%);
     font-size: 14px;
     font-weight: 700;
-    cursor: default;
+    cursor: pointer;
+    text-decoration: none;
+    transition: opacity 150ms ease;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus-visible {
+    opacity: 0.6;
+}
+
+.footer-social-link:focus-visible {
+    outline: 2px solid var(--sudes-orange);
+    outline-offset: 3px;
 }
 
 .footer-social-link svg {

@@ -14,23 +14,23 @@
         <div class="site-header-main">
             <div class="site-topbar">
                 <div class="site-topbar-socials" role="group" aria-label="Mạng xã hội">
-                    <span class="site-social-link" role="img" aria-label="Facebook">
+                    <a class="site-social-link" href="#" aria-label="Facebook">
                         <span class="social-facebook" aria-hidden="true">f</span>
-                    </span>
+                    </a>
 
-                    <span class="site-social-link" role="img" aria-label="Instagram">
+                    <a class="site-social-link" href="#" aria-label="Instagram">
                         <svg viewBox="0 0 24 24" aria-hidden="true">
                             <rect x="3" y="3" width="18" height="18" rx="5" />
                             <circle cx="12" cy="12" r="4" />
                             <circle class="social-dot" cx="18" cy="6" r="1" />
                         </svg>
-                    </span>
+                    </a>
 
-                    <span class="site-social-link site-social-zalo" role="img" aria-label="Zalo">
+                    <a class="site-social-link site-social-zalo" href="#" aria-label="Zalo">
                         Zalo
-                    </span>
+                    </a>
 
-                    <span class="site-social-link" role="img" aria-label="YouTube">
+                    <a class="site-social-link" href="#" aria-label="YouTube">
                         <svg viewBox="0 0 24 24" aria-hidden="true">
                             <path
                                 class="youtube-body"
@@ -38,7 +38,7 @@
                             />
                             <path class="youtube-play" d="m10 8.5 6 3.5-6 3.5Z" />
                         </svg>
-                    </span>
+                    </a>
                 </div>
 
                 <div class="site-topbar-contact">
@@ -58,7 +58,7 @@
                     </a>
 
                     {{-- Email — dùng support@sapo.vn từ source gốc; chờ chủ project xác nhận email thật --}}
-                    <a class="topbar-contact-item" href="mailto:support@sapo.vn">
+                    <a class="topbar-contact-item" href="#">
                         <svg viewBox="0 0 24 24" aria-hidden="true">
                             <rect x="2" y="4" width="20" height="16" rx="1" />
                             <path d="m3 5 9 8 9-8" />
@@ -238,8 +238,8 @@
                     </div>
 
                     <div data-nav-dropdown-content="library" hidden>
-                        <span class="site-dropdown-link" aria-disabled="true">Thư viện video</span>
-                        <span class="site-dropdown-link" aria-disabled="true">Thư viện album</span>
+                        <a class="site-dropdown-link" href="#">Thư viện video</a>
+                        <a class="site-dropdown-link" href="#">Thư viện album</a>
                     </div>
                 </div>
             </nav>

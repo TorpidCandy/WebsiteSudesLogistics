@@ -54,21 +54,21 @@
                         </a>
                     </div>
                     <div class="footer-socials">
-                        <span class="footer-social-link" role="img" aria-label="Facebook">f</span>
-                        <span class="footer-social-link" role="img" aria-label="Twitter">t</span>
-                        <span class="footer-social-link" role="img" aria-label="YouTube">
+                        <a class="footer-social-link" href="#" aria-label="Facebook">f</a>
+                        <a class="footer-social-link" href="#" aria-label="Twitter">t</a>
+                        <a class="footer-social-link" href="#" aria-label="Youtube">
                             <svg viewBox="0 0 24 24" aria-hidden="true" width="16" height="16">
                                 <path class="yt-body" d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8Z" />
                                 <path class="yt-play" d="m10 8.5 6 3.5-6 3.5Z" />
                             </svg>
-                        </span>
-                        <span class="footer-social-link" role="img" aria-label="Instagram">
+                        </a>
+                        <a class="footer-social-link" href="#" aria-label="Instagram">
                             <svg viewBox="0 0 24 24" aria-hidden="true" width="16" height="16">
                                 <rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2" />
                                 <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2" />
                                 <circle cx="18" cy="6" r="1" fill="currentColor" />
                             </svg>
-                        </span>
+                        </a>
                     </div>
                 </div>
 
@@ -82,7 +82,7 @@
                         <li><a href="{{ url('/#process') }}">Quy trình làm việc</a></li>
                         <li><a href="{{ url('/#services') }}">Dịch vụ</a></li>
                         <li><a href="{{ url('/#news') }}">Tin tức</a></li>
-                        <li><span aria-disabled="true">Thư viện</span></li>
+                        <li><a href="#">Thư viện</a></li>
                         <li><a href="{{ url('/#faq') }}">Câu hỏi thường gặp</a></li>
                         <li><a href="{{ url('/#contact') }}">Liên hệ</a></li>
                     </ul>

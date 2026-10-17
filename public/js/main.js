@@ -29,10 +29,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 disableOnInteraction: true,
                 stopOnLastSlide: true
             },
-            pagination: {
-                el: ".hero-pagination",
-                clickable: true
-            },
             on: {
                 init: syncHeroAccessibility,
                 slideChange: syncHeroAccessibility
