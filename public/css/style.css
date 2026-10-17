@@ -261,7 +261,6 @@ button:disabled {
     font-weight: 700;
     line-height: 1;
     transition: opacity 150ms ease;
-    user-select: none;
 }
 
 .site-social-link:hover,
@@ -319,7 +318,6 @@ button:disabled {
 
 .site-topbar-contact > span.topbar-contact-item {
     cursor: default;
-    user-select: none;
 }
 
 a.topbar-contact-item:hover {
@@ -1574,6 +1572,7 @@ a.topbar-contact-item:hover {
     color: rgb(255 255 255 / 80%);
     font-size: 14px;
     font-weight: 700;
+    cursor: default;
 }
 
 .footer-social-link svg {
