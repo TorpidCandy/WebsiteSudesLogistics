@@ -29,7 +29,7 @@
                 <div class="footer-column">
                     <a class="footer-brand" href="{{ url('/') }}">
                         <img
-                            src="{{ asset('images/sudes-logo-footer-white.png') }}"
+                            src="{{ asset('images/footer-brand-logo.png') }}"
                             alt="Sudes Logistics"
                             loading="lazy"
                         >
@@ -109,11 +109,38 @@
                     </ul>
                 </div>
 
-                {{-- Cột 4: Thời gian làm việc --}}
+                {{-- Cột 4: Hình ảnh --}}
                 <div class="footer-column">
-                    <h2 class="footer-heading">Thời gian làm việc</h2>
-                    <p>Từ thứ 2 đến thứ 7 hàng tuần (Nghỉ chủ nhật)</p>
-                    <p class="footer-hours">8h00 - 22h00</p>
+                    <h2 class="footer-heading">HÌNH ẢNH CỦA CHÚNG TÔI</h2>
+
+                    @php
+                        $footerGalleryImages = [
+                            ['file' => 'conveyor-sorting-facility.png', 'label' => 'Hệ thống phân loại hàng hóa'],
+                            ['file' => 'smart-logistics-network.png', 'label' => 'Mạng lưới logistics thông minh'],
+                            ['file' => 'ocean-freight-vessel.png', 'label' => 'Vận chuyển hàng hóa đường biển'],
+                            ['file' => 'customs-clearance-team.png', 'label' => 'Đội ngũ thủ tục hải quan'],
+                            ['file' => 'cargo-handling-team.png', 'label' => 'Đội ngũ xử lý hàng hóa'],
+                            ['file' => 'warehouse-sorting-facility.png', 'label' => 'Hoạt động kho bãi'],
+                        ];
+                    @endphp
+
+                    <div class="footer-gallery-grid">
+                        @foreach ($footerGalleryImages as $image)
+                            <a
+                                class="footer-gallery-item"
+                                href="{{ asset('images/' . $image['file']) }}"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Mở ảnh: {{ $image['label'] }}"
+                            >
+                                <img
+                                    src="{{ asset('images/' . $image['file']) }}"
+                                    alt=""
+                                    loading="lazy"
+                                >
+                            </a>
+                        @endforeach
+                    </div>
                 </div>
 
             </div>

@@ -11,7 +11,7 @@
                 <div class="swiper-wrapper">
                     <article class="swiper-slide hero-slide" data-hero-slide>
                         <img
-                            src="{{ asset('images/hero-slide-logistics-01.png') }}"
+                            src="{{ asset('images/hero-slide-01.png') }}"
                             alt=""
                             aria-hidden="true"
                             fetchpriority="high"
@@ -32,7 +32,7 @@
 
                     <article class="swiper-slide hero-slide" data-hero-slide>
                         <img
-                            src="{{ asset('images/hero-slide-port-02.png') }}"
+                            src="{{ asset('images/hero-slide-02.png') }}"
                             alt=""
                             aria-hidden="true"
                             loading="lazy"
@@ -64,7 +64,7 @@
                         <div class="about-image-wrap">
                             <img
                                 class="about-image"
-                                src="{{ asset('images/company-logistics-collage.png') }}"
+                                src="{{ asset('images/about-image.png') }}"
                                 alt="Hoạt động logistics và chuỗi cung ứng của Sudes"
                                 loading="lazy"
                             >
@@ -187,42 +187,42 @@
                 [
                     'id'    => 'service-customs-clearance',
                     'title' => 'Đại lý Hải quan',
-                    'image' => 'images/service-customs-clearance.jpg',
+                    'image' => 'images/service-image-01.jpg',
                 ],
                 [
                     'id'    => 'service-cargo-insurance',
                     'title' => 'Bảo hiểm Hàng hóa',
-                    'image' => 'images/service-cargo-insurance.jpg',
+                    'image' => 'images/service-image-02.jpg',
                 ],
                 [
                     'id'    => 'service-air-freight',
                     'title' => 'Vận chuyển hàng không quốc tế',
-                    'image' => 'images/service-air-freight.jpg',
+                    'image' => 'images/service-image-03.jpg',
                 ],
                 [
                     'id'    => 'service-sea-freight',
                     'title' => 'Vận chuyển đường biển quốc tế',
-                    'image' => 'images/service-sea-freight.jpg',
+                    'image' => 'images/service-image-04.jpg',
                 ],
                 [
                     'id'    => 'service-domestic-transport',
                     'title' => 'Vận chuyển nội bộ',
-                    'image' => 'images/service-domestic-transport.jpg',
+                    'image' => 'images/service-image-05.jpg',
                 ],
                 [
                     'id'    => 'service-heavy-lift',
                     'title' => 'Nâng hạ - cẩu - lắp đặt hàng siêu trường, siêu trọng',
-                    'image' => 'images/service-heavy-lift.jpg',
+                    'image' => 'images/service-image-06.jpg',
                 ],
                 [
                     'id'    => 'service-warehouse-distribution',
                     'title' => 'Dịch vụ cho thuê kho bãi, phân phối hàng hóa',
-                    'image' => 'images/service-warehouse-distribution.jpg',
+                    'image' => 'images/service-image-07.jpg',
                 ],
                 [
                     'id'    => 'service-import-export-documents',
                     'title' => 'Dịch vụ chứng từ & Tư vấn xuất nhập khẩu',
-                    'image' => 'images/service-import-export-documents.jpg',
+                    'image' => 'images/service-image-08.jpg',
                 ],
             ];
         @endphp
@@ -310,28 +310,28 @@
                     'description' => 'Ngành logistics toàn cầu đang chứng kiến những thay đổi sâu rộng, được thúc đẩy bởi tiến bộ công nghệ, sự thay đổi trong kỳ vọng và nhận thức về môi trường. Để duy trì tính cạnh tranh...',
                     'date'        => '2025-06-02',
                     'date_label'  => '02/06/2025',
-                    'image'       => 'images/logistics-network-aerial.png',
+                    'image'       => 'images/news-image-01.png',
                 ],
                 [
                     'title'       => 'Tối Ưu Hóa Hiệu Quả Vận Tải Trong Logistics: Chìa Khóa Tăng Trưởng Bền Vững',
                     'description' => 'Trong bối cảnh kinh doanh cạnh tranh ngày nay, hiệu quả vận tải là một trong những yếu tố then chốt quyết định sự thành công của chuỗi cung ứng. Việc tối ưu hóa hoạt động vận tải...',
                     'date'        => '2025-06-02',
                     'date_label'  => '02/06/2025',
-                    'image'       => 'images/logistics-transport-background.png',
+                    'image'       => 'images/news-image-02.png',
                 ],
                 [
                     'title'       => 'Logistics Ngược: Xu Hướng Quan Trọng Trong Chuỗi Cung Ứng Hiện Đại',
                     'description' => 'Trong ngành logistics, khi nhắc đến chuỗi cung ứng, người ta thường hình dung về dòng chảy hàng hóa từ nhà sản xuất đến tay người tiêu dùng. Tuy nhiên, một khía cạnh ngày càng quan trọng...',
                     'date'        => '2025-06-02',
                     'date_label'  => '02/06/2025',
-                    'image'       => 'images/warehouse-sorting-operations.png',
+                    'image'       => 'images/news-image-03.png',
                 ],
                 [
                     'title'       => 'Ngành Logistics: Động Lực Tăng Trưởng Và Những Thách Thức Mới',
                     'description' => 'Ngành logistics toàn cầu đang trải qua giai đoạn chuyển mình mạnh mẽ, vừa là động lực chính cho sự phát triển kinh tế, vừa đối mặt với hàng loạt thách thức và cơ hội mới...',
                     'date'        => '2025-06-02',
                     'date_label'  => '02/06/2025',
-                    'image'       => 'images/multimodal-logistics-collage.png',
+                    'image'       => 'images/news-image-04.png',
                 ],
             ];
         @endphp
@@ -492,7 +492,7 @@
                                 </blockquote>
                                 <div class="testimonial-author">
                                     <img
-                                        src="{{ asset('images/customer-portrait-01.png') }}"
+                                        src="{{ asset('images/testimonial-author-01.png') }}"
                                         alt=""
                                         loading="lazy"
                                         aria-hidden="true"
@@ -514,7 +514,7 @@
                                 </blockquote>
                                 <div class="testimonial-author">
                                     <img
-                                        src="{{ asset('images/customer-portrait-02.png') }}"
+                                        src="{{ asset('images/testimonial-author-02.png') }}"
                                         alt=""
                                         loading="lazy"
                                         aria-hidden="true"
@@ -536,7 +536,7 @@
                                 </blockquote>
                                 <div class="testimonial-author">
                                     <img
-                                        src="{{ asset('images/customer-portrait-03.png') }}"
+                                        src="{{ asset('images/testimonial-author-03.png') }}"
                                         alt=""
                                         loading="lazy"
                                         aria-hidden="true"
@@ -583,7 +583,7 @@
                     <div class="col-12 col-xl-5" data-aos="fade-left" data-aos-delay="100">
                         <img
                             class="partners-map"
-                            src="{{ asset('images/vietnam-logistics-network-map.png') }}"
+                            src="{{ asset('images/partners-map.png') }}"
                             alt="Bản đồ mạng lưới logistics tại Việt Nam"
                             loading="lazy"
                         >

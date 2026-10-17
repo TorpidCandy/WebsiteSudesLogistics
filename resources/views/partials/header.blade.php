@@ -6,7 +6,7 @@
         >
             <img
                 class="site-brand-logo"
-                src="{{ asset('images/sudes-logo-header-white.png') }}"
+                src="{{ asset('images/site-brand-logo.png') }}"
                 alt="Sudes Logistics"
             >
         </a>
