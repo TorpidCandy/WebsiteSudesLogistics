@@ -254,7 +254,7 @@ button:disabled {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    cursor: default;
+    cursor: pointer;
     color: #fff;
     text-decoration: none;
     font-size: 22px;
