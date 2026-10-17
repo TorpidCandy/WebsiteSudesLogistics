@@ -11,6 +11,9 @@
                 <div class="col-12 col-lg-auto">
                     <a class="button button-light" href="tel:19006750">
                         Liên hệ ngay
+                        <svg class="footer-contact-arrow" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M4 12h14M12 5l7 7-7 7" />
+                        </svg>
                     </a>
                 </div>
             </div>
@@ -20,10 +23,10 @@
     {{-- FOOTER MAIN --}}
     <div class="footer-main">
         <div class="container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 g-xl-5">
+            <div class="footer-grid">
 
                 {{-- Cột 1: Thương hiệu và liên hệ --}}
-                <div class="col">
+                <div class="footer-column">
                     <a class="footer-brand" href="{{ url('/') }}">
                         <img
                             src="{{ asset('images/sudes-logo-footer-white.png') }}"
@@ -37,21 +40,24 @@
                         quản lý chuỗi cung ứng hiệu quả, từ vận chuyển nội địa, quốc tế đến
                         kho bãi và khai báo hải quan.
                     </p>
-                    <div class="footer-contact-list">
-                        <a href="tel:19006750">
+                    <div class="footer-working-hours">
+                        <span class="footer-hours-label">Thời gian làm việc</span>
+
+                        <p class="footer-hours-item">
                             <svg viewBox="0 0 24 24" aria-hidden="true">
-                                <path d="M5 3h4l2 5-3 2a15 15 0 0 0 6 6l2-3 5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2Z" />
+                                <rect x="3" y="5" width="18" height="16" rx="2" />
+                                <path d="M8 3v4M16 3v4M3 10h18M7 14h2M11 14h2M15 14h2M7 17h2M11 17h2M15 17h2" />
                             </svg>
-                            1900 6750
-                        </a>
-                        {{-- Email chờ chủ project xác nhận địa chỉ thật --}}
-                        <a href="mailto:support@sapo.vn">
+                            <span>Từ thứ 2 đến thứ 7 hàng tuần (Nghỉ chủ nhật)</span>
+                        </p>
+
+                        <p class="footer-hours-item">
                             <svg viewBox="0 0 24 24" aria-hidden="true">
-                                <rect x="2" y="4" width="20" height="16" rx="1" />
-                                <path d="m3 5 9 8 9-8" />
+                                <circle cx="12" cy="12" r="9" />
+                                <path d="M12 6v6l4 2" />
                             </svg>
-                            support@sapo.vn
-                        </a>
+                            <span>8h00 - 22h00</span>
+                        </p>
                     </div>
                     <div class="footer-socials">
                         <a class="footer-social-link" href="#" aria-label="Facebook">f</a>
@@ -73,7 +79,7 @@
                 </div>
 
                 {{-- Cột 2: Thông tin --}}
-                <div class="col">
+                <div class="footer-column">
                     <h2 class="footer-heading">Thông tin</h2>
                     <ul class="footer-links">
                         <li><a href="{{ url('/') }}">Trang chủ</a></li>
@@ -89,7 +95,7 @@
                 </div>
 
                 {{-- Cột 3: Dịch vụ --}}
-                <div class="col">
+                <div class="footer-column">
                     <h2 class="footer-heading">Dịch vụ</h2>
                     <ul class="footer-links">
                         <li><a href="{{ url('/#service-customs-clearance') }}">Đại lý Hải quan</a></li>
@@ -104,7 +110,7 @@
                 </div>
 
                 {{-- Cột 4: Thời gian làm việc --}}
-                <div class="col">
+                <div class="footer-column">
                     <h2 class="footer-heading">Thời gian làm việc</h2>
                     <p>Từ thứ 2 đến thứ 7 hàng tuần (Nghỉ chủ nhật)</p>
                     <p class="footer-hours">8h00 - 22h00</p>
