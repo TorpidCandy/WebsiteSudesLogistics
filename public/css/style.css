@@ -97,10 +97,13 @@ body:not(.aos-ready) [data-aos] {
     opacity: 1 !important;
 }
 
-a,
-buttons
-{
+a[href],
+button:not(:disabled) {
     cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
 }
 
 /* Shared section helpers */
@@ -251,12 +254,14 @@ buttons
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    cursor: default;
     color: #fff;
     text-decoration: none;
     font-size: 22px;
     font-weight: 700;
     line-height: 1;
     transition: opacity 150ms ease;
+    user-select: none;
 }
 
 .site-social-link:hover,
@@ -312,7 +317,12 @@ buttons
     transition: opacity 150ms ease;
 }
 
-.topbar-contact-item:hover {
+.site-topbar-contact > span.topbar-contact-item {
+    cursor: default;
+    user-select: none;
+}
+
+a.topbar-contact-item:hover {
     color: #fff;
     opacity: 0.75;
 }
