@@ -703,16 +703,7 @@ a.topbar-contact-item:hover {
     background: var(--sudes-navy);
 }
 
-/* Pointer cursors and focus rings */
-
-.site-header a[href],
-.site-header button:not(:disabled) {
-    cursor: pointer;
-}
-
-.site-header button:disabled {
-    cursor: default;
-}
+/* Header focus rings */
 
 .site-navigation .nav-quote:focus-visible,
 .site-search:focus-visible,
@@ -1214,6 +1205,7 @@ a.topbar-contact-item:hover {
     font-size: 19px;
     font-weight: 500;
     line-height: 1.45;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
 }
@@ -1227,6 +1219,7 @@ a.topbar-contact-item:hover {
     color: var(--sudes-muted);
     font-size: 15px;
     line-height: 1.65;
+    line-clamp: 3;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
 }
