@@ -373,7 +373,7 @@ a.topbar-contact-item:hover {
     display: inline-flex;
     align-items: center;
     gap: 5px;
-    padding: 16px 9px;
+    padding: 16px 14px;
     color: #111;
     font-size: 17px;
     font-weight: 500;
@@ -462,7 +462,7 @@ a.topbar-contact-item:hover {
 
 .site-nav-arrow:disabled {
     opacity: 0.35;
-    cursor: not-allowed;
+    cursor: default;
 }
 
 /* Dropdown trigger */
@@ -713,7 +713,7 @@ a.topbar-contact-item:hover {
 }
 
 .site-header button:disabled {
-    cursor: not-allowed;
+    cursor: default;
 }
 
 .site-navigation .nav-quote:focus-visible,
