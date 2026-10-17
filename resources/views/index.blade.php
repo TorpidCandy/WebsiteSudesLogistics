@@ -26,10 +26,6 @@
                                     hỗ trợ hàng nghìn doanh nghiệp Việt Nam xuất nhập khẩu
                                     hiệu quả. Nâng cao vận hành, mở rộng thị trường.
                                 </p>
-                                <div class="hero-actions">
-                                    <a class="button hero-cta" href="#contact">BÁO GIÁ NGAY</a>
-                                    <a class="button hero-cta hero-cta-outline" href="#about">Tìm hiểu thêm</a>
-                                </div>
                             </div>
                         </div>
                     </article>
@@ -52,10 +48,6 @@
                                     nhập khẩu. Giúp hàng nghìn doanh nghiệp vững vàng
                                     phát triển toàn cầu.
                                 </p>
-                                <div class="hero-actions">
-                                    <a class="hero-cta" href="#contact">BÁO GIÁ NGAY</a>
-                                    <a class="hero-cta hero-cta-outline" href="#services">Dịch vụ của chúng tôi</a>
-                                </div>
                             </div>
                         </div>
                     </article>
