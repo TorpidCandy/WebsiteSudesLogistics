@@ -572,7 +572,7 @@
                             @for ($i = 1; $i <= 20; $i++)
                                 <div class="partner-logo-item">
                                     <img
-                                        src="{{ asset('images/brand-logo-' . str_pad($i, 2, '0', STR_PAD_LEFT) . '.png') }}"
+                                        src="{{ asset('images/partner-logo-' . str_pad($i, 2, '0', STR_PAD_LEFT) . '.png') }}"
                                         alt="Logo đối tác {{ $i }}"
                                         loading="lazy"
                                     >
